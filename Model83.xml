@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Parts Group="Model 83">
+<Parts Group="Model 83"
+	xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="BOM.xsd">
 
 <!-- Basic M83 items -->
 	<Part PartID="8027920-X" Phantom="E">
@@ -345,7 +347,7 @@
 			<Material PartID="7631450" Unit="EA" Qty="1"/>
 			<Material PartID="7350002" Unit="EA" Qty="1"/>
 			<Material PartID="7731112-1" Unit="EA" Qty="1"/>
-			<Material PartID="7731115-1" Unit="EA" qty="1"/>
+			<Material PartID="7731115-1" Unit="EA" Qty="1"/>
 			<Material PartID="7733109" Unit="EA" Qty="1"/>
 			<Material PartID="7733104-1" Unit="EA" Qty="1"/>
 			<Material PartID="7735150-1" Unit="EA" Qty="1"/>

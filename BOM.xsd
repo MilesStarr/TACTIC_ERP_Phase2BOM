@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="Parts">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Part" type="PartType" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="Group" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+  <xs:complexType name="PartType">
+    <xs:sequence>
+      <xs:element name="Operation" type="OperationType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="PartID" type="xs:string" use="required"/>
+    <xs:attribute name="Phantom" type="xs:string" default="M"/>
+  </xs:complexType>
+
+
+  <xs:complexType name="OperationType">
+    <xs:sequence>
+      <xs:element name="Material" type="MaterialType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="WC" type="xs:string" default="TACwip"/>
+  </xs:complexType>
+
+  <xs:complexType name="MaterialType">
+    <xs:attribute name="PartID" type="xs:string" use="required"/>
+    <xs:attribute name="Unit" type="xs:string" use="required"/>
+    <xs:attribute name="Qty" type="xs:int" use="required"/>
+    <xs:attribute name="Size" type="xs:float" use="optional"/>
+  </xs:complexType>
+
+  
+</xs:schema>
