@@ -16,7 +16,6 @@
       <xs:element name="Operation" type="OperationType" minOccurs="1" maxOccurs="unbounded"/>
     </xs:sequence>
     <xs:attribute name="PartID" type="xs:string" use="required"/>
-    <xs:attribute name="Phantom" type="xs:string" default="M"/>
   </xs:complexType>
 
 
