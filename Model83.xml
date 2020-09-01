@@ -795,10 +795,10 @@
 			<Material PartID="8027912" Unit="EA" Qty="1"/>
 			<Material PartID="7163320-1" Unit="EA" Qty="2"/>
 			<Material PartID="7161422-1" Unit="EA" Qty="8"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="8"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="13"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="17"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="8"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="8"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="13"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="17"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="8"/>
 			<Material PartID="7195016" Unit="EA" Qty="1"/>
 			<Material PartID="7195020" Unit="EA" Qty="1"/>
 			<Material PartID="7195033" Unit="EA" Qty="1"/>
@@ -815,10 +815,10 @@
 			<Material PartID="7163320-1" Unit="EA" Qty="2"/>
 			<Material PartID="7161422-1" Unit="EA" Qty="8"/>
 			<Material PartID="7161410" Unit="EA" Qty="6"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="8"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="13"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="17"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="8"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="8"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="13"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="17"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="8"/>
 			<Material PartID="7195016" Unit="EA" Qty="2"/>
 			<Material PartID="7195020" Unit="EA" Qty="1"/>
 			<Material PartID="7195033" Unit="EA" Qty="1"/>
@@ -835,10 +835,10 @@
 			<Material PartID="7163320-1" Unit="EA" Qty="2"/>
 			<Material PartID="7161422-1" Unit="EA" Qty="8"/>
 			<Material PartID="7161410" Unit="EA" Qty="8"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="8"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="13"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="15"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="1" Size="6"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="8"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="13"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="15"/>
+			<Material PartID="7195035-1" Unit="P" Qty="1" Size="6"/>
 			<Material PartID="7195016" Unit="EA" Qty="1"/>
 			<Material PartID="7195020" Unit="EA" Qty="1"/>
 			<Material PartID="7195022" Unit="EA" Qty="1"/>
@@ -857,9 +857,9 @@
 		<Operation WC="ELC020">
 			<Material PartID="8027914" Unit="EA" Qty="1"/>
 			<Material PartID="7163320" Unit="EA" Qty="5"/>
-			<Material PartID="7195035" Unit="EA" Qty="2" Size="8"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="13"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="15"/>
+			<Material PartID="7195035" Unit="P" Qty="2" Size="8"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="13"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="15"/>
 			<Material PartID="7195016" Unit="EA" Qty="2"/>
 			<Material PartID="7195020" Unit="EA" Qty="1"/>
 			<Material PartID="7195022" Unit="EA" Qty="1"/>
@@ -871,9 +871,9 @@
 		<Operation WC="ELC020">
 			<Material PartID="8027914" Unit="EA" Qty="1"/>
 			<Material PartID="7163320" Unit="EA" Qty="5"/>
-			<Material PartID="7195035" Unit="EA" Qty="2" Size="8"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="13"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="15"/>
+			<Material PartID="7195035" Unit="P" Qty="2" Size="8"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="13"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="15"/>
 			<Material PartID="7195016" Unit="EA" Qty="2"/>
 			<Material PartID="7195020" Unit="EA" Qty="1"/>
 			<Material PartID="7195022" Unit="EA" Qty="1"/>
@@ -885,9 +885,9 @@
 		<Operation WC="ELC020">
 			<Material PartID="8027914" Unit="EA" Qty="1"/>
 			<Material PartID="7163320" Unit="EA" Qty="11"/>
-			<Material PartID="7195035" Unit="EA" Qty="2" Size="8"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="13"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="15"/>
+			<Material PartID="7195035" Unit="P" Qty="2" Size="8"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="13"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="15"/>
 			<Material PartID="7195016" Unit="EA" Qty="2"/>
 			<Material PartID="7195020" Unit="EA" Qty="1"/>
 			<Material PartID="7195022" Unit="EA" Qty="1"/>
@@ -901,9 +901,9 @@
 		<Operation WC="ELC020">
 			<Material PartID="8027914" Unit="EA" Qty="1"/>
 			<Material PartID="7163320" Unit="EA" Qty="11"/>
-			<Material PartID="7195035" Unit="EA" Qty="2" Size="8"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="13"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="15"/>
+			<Material PartID="7195035" Unit="P" Qty="2" Size="8"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="13"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="15"/>
 			<Material PartID="7195016" Unit="EA" Qty="2"/>
 			<Material PartID="7195020" Unit="EA" Qty="1"/>
 			<Material PartID="7195022" Unit="EA" Qty="1"/>
@@ -917,10 +917,10 @@
 		<Operation WC="ELC020">
 			<Material PartID="8027914" Unit="EA" Qty="1"/>
 			<Material PartID="7163320" Unit="EA" Qty="14"/>
-			<Material PartID="7195035" Unit="EA" Qty="2" Size="8"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="13"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="15"/>
-			<Material PartID="7195035" Unit="EA" Qty="2" Size="6"/>
+			<Material PartID="7195035" Unit="P" Qty="2" Size="8"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="13"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="15"/>
+			<Material PartID="7195035" Unit="P" Qty="2" Size="6"/>
 			<Material PartID="7195016" Unit="EA" Qty="2"/>
 			<Material PartID="7195020" Unit="EA" Qty="1"/>
 			<Material PartID="7195022" Unit="EA" Qty="1"/>
@@ -935,10 +935,10 @@
 		<Operation WC="ELC020">
 			<Material PartID="8027914" Unit="EA" Qty="1"/>
 			<Material PartID="7163320" Unit="EA" Qty="14"/>
-			<Material PartID="7195035" Unit="EA" Qty="2" Size="8"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="13"/>
-			<Material PartID="7195035" Unit="EA" Qty="1" Size="15"/>
-			<Material PartID="7195035" Unit="EA" Qty="2" Size="6"/>
+			<Material PartID="7195035" Unit="P" Qty="2" Size="8"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="13"/>
+			<Material PartID="7195035" Unit="P" Qty="1" Size="15"/>
+			<Material PartID="7195035" Unit="P" Qty="2" Size="6"/>
 			<Material PartID="7195016" Unit="EA" Qty="2"/>
 			<Material PartID="7195020" Unit="EA" Qty="1"/>
 			<Material PartID="7195022" Unit="EA" Qty="1"/>
