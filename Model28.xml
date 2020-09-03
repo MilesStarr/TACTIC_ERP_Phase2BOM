@@ -155,7 +155,11 @@
 			<Material PartID="787266K" Unit="IN" Qty="50" />
 			<Material PartID="787288K" Unit="IN" Qty="50" />
 			<Material PartID="788102L" Unit="IN" Qty="50" />
-
+			<Material PartID="7195052" Unit="EA" Qty="2" />
+			<Material PartID="7775040" Unit="EA" Qty="2" />
+			<Material PartID="7195037" Unit="EA" Qty="8" />
+			<Material PartID="7195042" Unit="EA" Qty="2" />
+			<Material PartID="7195038" Unit="EA" Qty="8" />
 		</Operation>
 	</Part>
 	
@@ -542,7 +546,6 @@
 			<Material PartID="1577201" Unit="EA" Qty="2" />
 			<Material PartID="1507201" Unit="EA" Qty="2" />
 			<Material PartID="9732001" Unit="ml" Qty="1" />
-			<Material PartID="7890005" Unit="EA" Qty="2" />
 			<Material PartID="7353035" Unit="EA" Qty="1" />
 			<Material PartID="2001701" Unit="EA" Qty="1" /> <!-- V hardware -->
 			<Material PartID="2606101" Unit="EA" Qty="1" /> <!-- W hardware -->
@@ -554,6 +557,17 @@
 		</Operation>
 	</Part>
 	
+	<Part PartID="8035487">  <!-- Separate wire harness from E-Stop Box -->
+		<Operation WC="ELC010">
+			<Material PartID="7890005" Unit="EA" Qty="2" />
+			<Material PartID="7195052" Unit="EA" Qty="1"/>
+			<Material PartID="7775040" Unit="EA" Qty="1"/>
+			<Material PartID="7195037" Unit="EA" Qty="4"/>
+			<Material PartID="7195042" Unit="EA" Qty="1"/>
+			<Material PartID="7195038" Unit="EA" Qty="4"/>		
+			<Material PartId="788304M" Unit="FT" Qty="1" Size="30" />
+		</Operation>
+	</Part>
 </Parts>
 
 
