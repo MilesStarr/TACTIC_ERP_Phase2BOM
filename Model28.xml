@@ -3,35 +3,39 @@
 	xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="BOM.xsd">
 
-	<Part PartID="M28">
+	<Part PartID="M28B-1">
 		<Operation WC="ELC020">
-			<Material PartID="M13-_" Unit="EA" Qty="1" /> <!--  Needs to be configured -->
-			<Material PartID="8033416" Unit="EA" Qty="1" />  <!-- Drawing for Model 29 -->
-			
+			<Material PartID="8033408-1" Unit="EA" Qty="1" /> <!--  Drawing for Model 13 -->
+			<Material PartID="8033416" Unit="EA" Qty="1" />  <!-- Drawing for Model 29B -->
+			<Material PartID="8025126" Unit="EA" Qty="1" />  <!-- Model 26  -->
+			<Material PartID="8033419" Unit="EA" Qty="1" />  <!-- Mounting Panel -->
 		</Operation>
 	</Part>
 
-	<Part PartID="M13-1">
-		<Operation WC="ASY010">
-			<Material PartID="8033408-1" Unit="EA" Qty="1" />
+	<Part PartID="M28B-2">
+		<Operation WC="ELC020">
+			<Material PartID="8033408-2" Unit="EA" Qty="1" /> <!--  Drawing for Model 13 -->
+			<Material PartID="8033416" Unit="EA" Qty="1" />  <!-- Drawing for Model 29B -->
+			<Material PartID="8025126" Unit="EA" Qty="1" />  <!-- Model 26  -->
+			<Material PartID="8033419" Unit="EA" Qty="1" />  <!-- Mounting Panel -->
 		</Operation>
 	</Part>
 
-	<Part PartID="M13-2">
-		<Operation WC="ASY010">
-			<Material PartID="8033408-2" Unit="EA" Qty="1" />
+	<Part PartID="M28B-3">
+		<Operation WC="ELC020">
+			<Material PartID="8033408-3" Unit="EA" Qty="1" /> <!--  Drawing for Model 13 -->
+			<Material PartID="8033416" Unit="EA" Qty="1" />  <!-- Drawing for Model 29B -->
+			<Material PartID="8025126" Unit="EA" Qty="1" />  <!-- Model 26  -->
+			<Material PartID="8033419" Unit="EA" Qty="1" />  <!-- Mounting Panel -->
 		</Operation>
 	</Part>
 
-	<Part PartID="M13-3">
-		<Operation WC="ASY010">
-			<Material PartID="8033408-3" Unit="EA" Qty="1" />
-		</Operation>
-	</Part>
-
-	<Part PartID="M13-4">
-		<Operation WC="ASY010">
-			<Material PartID="8033408-4" Unit="EA" Qty="1" />
+	<Part PartID="M28B-4">
+		<Operation WC="ELC020">
+			<Material PartID="8033408-4" Unit="EA" Qty="1" /> <!--  Drawing for Model 13 -->
+			<Material PartID="8033416" Unit="EA" Qty="1" />  <!-- Drawing for Model 29B -->
+			<Material PartID="8025126" Unit="EA" Qty="1" />  <!-- Model 26  -->
+			<Material PartID="8033419" Unit="EA" Qty="1" />  <!-- Mounting Panel -->
 		</Operation>
 	</Part>
 	
