@@ -242,7 +242,7 @@
 			<Material PartID="7195035" Unit="P" Qty="1" Size="4" />
 			<Material PartID="7195035" Unit="P" Qty="1" Size="15" />
 			<Material PartID="7195035" Unit="P" Qty="1" Size="8" />
-			<Material PartID="7195101" Unit="EA" Qty="" />
+			<Material PartID="7195101" Unit="EA" Qty="1" />
 			<Material PartID="7195104" Unit="EA" Qty="4" />
 			<Material PartID="7524005-1" Unit="EA" Qty="1" />
 			<Material PartID="7683005" Unit="EA" Qty="1" />
@@ -331,10 +331,10 @@
 	<Part PartID="8033412-X">
 		<Operation WC="FAB070">
 			<Material PartID="8033412-A" Unit="EA" Qty="2" />
-			<Material PartId="8033855" Unit="EA" Qty="1" />
-			<Material PartId="8033413" Unit="EA" Qty="1" />
-			<Material PartId="8033414-1" Unit="EA" Qty="1" />
-			<Material PartId="8033414-2" Unit="EA" Qty="1" />
+			<Material PartID="8033855" Unit="EA" Qty="1" />
+			<Material PartID="8033413" Unit="EA" Qty="1" />
+			<Material PartID="8033414-1" Unit="EA" Qty="1" />
+			<Material PartID="8033414-2" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 
@@ -569,7 +569,7 @@
 			<Material PartID="7195037" Unit="EA" Qty="4"/>
 			<Material PartID="7195042" Unit="EA" Qty="1"/>
 			<Material PartID="7195038" Unit="EA" Qty="4"/>		
-			<Material PartId="788304M" Unit="FT" Qty="1" Size="30" />
+			<Material PartID="788304M" Unit="FT" Qty="1" Size="30" />
 		</Operation>
 	</Part>
 </Parts>
