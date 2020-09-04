@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Parts Group="40B"
+<Parts Group="40"
 	xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="BOM.xsd">
 	<Part PartID="M40B">
