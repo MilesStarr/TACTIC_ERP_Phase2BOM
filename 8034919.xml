@@ -100,7 +100,7 @@
 	
 	<Part PartID="8034922-4">
 		<Operation WC="FAB010">
-			<Material PartID="9130201-4" Unit="EA" Qty="1" Size="9.375" />
+			<Material PartID="9130201-4" Unit="IN" Qty="1" Size="9.375" />
 		</Operation>
 		<Operation WC="MCH010" />
 		<Operation WC="MCH050" />
@@ -108,7 +108,7 @@
 	
 	<Part PartID="8034924">
 		<Operation WC="FAB010">
-			<Material PartID="9014204-3" Unit="EA" Qty="1" Size="11.125" />
+			<Material PartID="9014204-3" Unit="IN" Qty="1" Size="11.125" />
 		</Operation>
 		<Operation WC="FAB020" />
 		<Operation WC="FAB030" />
