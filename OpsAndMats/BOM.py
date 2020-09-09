@@ -105,7 +105,7 @@ class BOM:
                           'Unit Weight': 0, 'Weight Units': "", 'Quantity On Hand': 0.0, 'Non-Nettable Stock': 0.0, 'Safety Stock': 0.0,
                           'Quantity Ordered': 0.0, 'Quantity WIP': 0.0, 'Allocated To Prod': 0.0, 'Allocated To Customer Orders': 0.0,
                           'Reserved For Customer Orders': 0.0, 'Low Level': 0, 'Active for Data Integration': 1, 'Planner Code': "",
-                          'Shrink Factor': 0.0, 'Phantom Flag': 1, 'MPS Flag': 0, 'Net Change': 0, 'MPS Plan Fence': 0, 'Family Code': "",
+                          'Shrink Factor': 0.0, 'Phantom Flag': 0, 'MPS Flag': 0, 'Net Change': 0, 'MPS Plan Fence': 0, 'Family Code': "",
                           'Production Type': "Job", 'Rate/Day': 1.0, 'Inventory LCL %': "", 'Inventory UCL %': "", 'Supply Site': "",
                           'Supply Whse': "", 'Paper Work': 0, 'Fixed Lead Time': 0, 'Expedited Fixed': 0, 'Dock-to-Stock': 0, 
                           'Variable': 0, 'Expedited Variable': 0, 'Separation': "", 'Release 1': "", 'Release 2': "", 'Release 3': "",
@@ -158,6 +158,7 @@ class BOM:
                 else:
                     recommendation['Item'] = itemSearch
                     recommendation['DESCRIPTION'] = "Failed Drawing Lookup"
+                recommendation['Phantom Flag'] = 1 if itemIsDWG[2] == "-X" else 0
             elif itemIsHardware:
                 hardwareInfo = self.fetchHardware(itemIsHardware)
                 recommendation['Item'] = itemSearch
