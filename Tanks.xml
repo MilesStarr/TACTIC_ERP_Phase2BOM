@@ -459,7 +459,7 @@
 		</Operation>
 	</Part>
 
-	<Part PartID="766A-12">  <!-- clean -->
+	<Part PartID="M766A-12">  <!-- clean -->
 		<Operation WC="ASY010">
 			<Material PartID="8033596-X" Unit="EA" Qty="1" />
 			<Material PartID="8034941-1" Unit="EA" Qty="1" />
@@ -467,7 +467,7 @@
 			<Material PartID="1577301" Unit="EA" Qty="6" />
 		</Operation>
 	</Part>
-	<Part PartID="766A-18">  <!-- clean -->
+	<Part PartID="M766A-18">  <!-- clean -->
 		<Operation WC="ASY010">
 			<Material PartID="8033596-X" Unit="EA" Qty="1" />
 			<Material PartID="8034941-3" Unit="EA" Qty="1" />
@@ -475,7 +475,7 @@
 			<Material PartID="1577301" Unit="EA" Qty="8" />
 		</Operation>
 	</Part>
-	<Part PartID="766A-24">  <!-- clean -->
+	<Part PartID="M766A-24">  <!-- clean -->
 		<Operation WC="ASY010">
 			<Material PartID="8033596-X" Unit="EA" Qty="1" />
 			<Material PartID="8034941-4" Unit="EA" Qty="1" />
