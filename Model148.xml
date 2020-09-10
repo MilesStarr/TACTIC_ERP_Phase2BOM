@@ -66,18 +66,18 @@
 	
 	<Part PartID="8026417-2">
 		<Operation WC="ASY010">
-			<Material PartID="802544-9" Unit="EA" Qty="1"/>
+			<Material PartID="8025044-9" Unit="EA" Qty="1"/>
 			<Material PartID="2034701" Unit="EA" Qty="2"/>
 			<Material PartID="8026391" Unit="EA" Qty="1"/>
 		</Operation>
 	</Part>
 	
-	<Part PartID="802544-9">
+	<Part PartID="8025044-9">
 		<Operation WC="FAB010">
 			<Material PartID="3704701" Unit="IN" Qty="1" Size="5.9375"/>
 		</Operation>
 		<Operation WC="EXT010">
-			<Material PartID="9999999" Unit="EA" Qty="1"/>
+			<Material PartID="9816001" Unit="EA" Qty="1"/>
 		</Operation>
 	</Part>
 	
@@ -92,7 +92,7 @@
 			<Material PartID="6960011" Unit="EA" Qty="1"/>
 		</Operation>
 		<Operation WC="EXT010">
-			<Material PartID="9999999" Unit="EA" Qty="1"/>
+			<Material PartID="9816001" Unit="EA" Qty="1"/>
 		</Operation>
 	</Part>
 	

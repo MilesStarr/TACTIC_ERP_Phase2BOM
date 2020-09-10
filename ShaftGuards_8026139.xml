@@ -1,0 +1,2012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Parts Group="Shaft Guards"
+	xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="BOM.xsd">
+
+
+<!-- Shaft Guards -->
+	<Part PartID="8026139-01">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="19.9375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-02">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="24.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-03">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="19.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-04">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="44.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-05">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="10.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-06">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="21.5625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-07">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="20.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-08">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="28.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-09">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="52.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-10">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="28.6875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-11">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="44.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-12">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="50.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-13">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="34.9375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-14">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="9.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-15">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="19" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-16">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="21.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-17">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="52.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-18">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="44.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-19">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="48.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-20">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="44.9375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-21">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="66.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-22">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="51.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-23">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="51.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-24">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-25">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="20" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-26">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="37.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-27">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="38" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-28">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="32.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-29">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="43" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-30">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="21" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-31">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="36.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-32">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="5.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-33">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="40.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-34">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="29.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-35">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="46.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-36">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="48.1875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-37">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="23.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-38">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="30" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-39">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="21.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-40">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="16.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-41">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="21.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-42">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="14.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-43">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-44">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.1875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-45">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="23.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-46">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-47">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="39.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-48">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="30.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-49">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="41.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-50">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="18.6875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-51">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="3.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-52">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="16.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-53">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="17.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-54">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="21.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-55">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="21.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-56">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="5.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-57">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="38.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-58">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="35.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-59">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="36.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-60">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="38.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-61">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="38.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-62">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="35.3125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-63">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="35.9375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-64">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="17.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-65">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="17.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-66">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="25.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-67">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="26.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-68">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="35.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-69">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="34.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-70">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="28.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-71">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="10.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-72">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="13.8125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-73">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="19.0625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-74">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="5.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-75">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="14" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-76">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="13.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-77">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="13.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-78">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="37.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-79">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="37" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-80">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="14.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-81">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="26.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-82">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="12.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-83">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="29.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-84">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="13.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-85">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="33" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-86">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="33.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-87">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="29.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-88">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="12.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-89">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="17.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-90">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="24.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-91">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="25.5625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-92">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="24.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-93">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="10.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-94">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="25.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-95">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="20.1875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-96">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="11" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-97">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="16.1875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-98">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-99">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="7.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-100">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="20.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-101">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="11.5625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-102">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="17.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-103">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="12.3125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-104">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="10.6875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-105">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="13.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-106">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="16.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-107">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="12.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-108">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="6.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-109">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="33.5625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-110">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="37.8125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-111">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="23.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-112">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="23.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-113">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="27.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-114">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="36.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-115">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="36.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-116">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="10" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-117">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="16" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-118">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="35.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-119">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="29.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-120">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="11.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-121">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="20.6875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-122">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.0625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-123">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="10.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-124">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="42.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-125">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.8125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-126">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="12.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-127">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="15.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-128">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="23.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-129">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="30.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-130">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="15.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-131">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="27.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-132">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="15.3125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-133">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="14.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-134">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="15.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-135">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="21.6875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-136">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="13.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-137">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.3125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-138">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="28.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-139">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="14.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-140">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="18.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-141">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-142">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="27.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-143">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="6.6875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-144">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="30.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-145">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="38.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-146">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="32.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-147">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-148">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="18.9375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-149">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="7.5625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-150">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="28" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-151">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="11.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-152">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="24.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-153">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="30.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-154">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="21.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-155">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-156">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="23" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-157">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="19.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-158">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="9.1875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-159">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="15.6875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-160">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="27.6875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-161">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="50.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-162">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="26.125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-163">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="22.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-164">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="6.875" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-165">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="15.75" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-166">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="24" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8026139-167">
+		<Operation WC="FAB010">
+			<Material PartID="8026139" Unit="IN" Qty="1" Size="31.375" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+</Parts>
