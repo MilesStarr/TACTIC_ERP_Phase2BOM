@@ -23,6 +23,7 @@
 	
 	<Part PartID="8034919-1">
 		<Operation WC="ASY010">
+			<Material PartID="8034919-X" Unit="EA" Qty="1" />
 			<Material PartID="5300202" Unit="EA" Qty="1" />
 			<Material PartID="5300402" Unit="EA" Qty="1" />
 		</Operation>
@@ -30,6 +31,7 @@
 	
 	<Part PartID="8034919-2">
 		<Operation WC="ASY010">
+			<Material PartID="8034919-X" Unit="EA" Qty="1" />
 			<Material PartID="8034918-5" Unit="EA" Qty="1" />
 			<Material PartID="8027251-5" Unit="EA" Qty="1" />
 			<Material PartID="5300402" Unit="EA" Qty="1" />
@@ -38,6 +40,7 @@
 	
 	<Part PartID="8034919-3">
 		<Operation WC="ASY010">
+			<Material PartID="8034919-X" Unit="EA" Qty="1" />
 			<Material PartID="8034918-4" Unit="EA" Qty="1" />
 			<Material PartID="8027251-8" Unit="EA" Qty="1" />
 			<Material PartID="5300202" Unit="EA" Qty="1" />
@@ -46,6 +49,7 @@
 	
 	<Part PartID="8034919-4">
 		<Operation WC="ASY010">
+			<Material PartID="8034919-X" Unit="EA" Qty="1" />
 			<Material PartID="8034918-5" Unit="EA" Qty="1" />
 			<Material PartID="8034918-4" Unit="EA" Qty="1" />
 			<Material PartID="8027251-5" Unit="EA" Qty="1" />
