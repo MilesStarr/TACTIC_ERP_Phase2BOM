@@ -57,9 +57,8 @@
 		</Operation>
 	</Part>
 	
-	<Part PartID="8027958">
+	<Part PartID="M33M">
 		<Operation WC="ASY010">
-			<Material PartID="8027958" Unit="EA" Qty="1" />
 			<Material PartID="8034376" Unit="EA" Qty="1" />
 			<Material PartID="8034622-1" Unit="EA" Qty="1" />
 			<Material PartID="8034622-2" Unit="EA" Qty="1" />
