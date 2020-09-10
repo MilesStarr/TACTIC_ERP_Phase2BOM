@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Parts Group="8027098"
+	xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="BOM.xsd">
+	
+	<Part PartID="8025042">
+		<Operation WC="ASY010">
+			<Material PartID="8025042-A" Unit="EA" Qty="1" />
+		</Operation>	
+		<Operation WC="EXT010">
+			<Material PartID="9816002" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="ASY010">
+			<Material PartID="3110004" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8027099">
+		<Operation WC="FAB010">
+			<Material PartID="3703501" Unit="EA" Qty="1" Size="7.5" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH060" />
+		<Operation WC="EXT010">
+			<Material PartID="9816002" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8027100">
+		<Operation WC="FAB010">
+			<Material PartID="9073051" Unit="EA" Qty="1" Size="2.5" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH060" />
+		<Operation WC="FAB070">
+			<Material PartID="1507201" Unit="EA" Qty="1" />
+		</Operation>	
+	</Part>
+	
+	<Part PartID="8027098">
+		<Operation WC="ASY010">
+			<Material PartID="8027100" Unit="EA" Qty="1" />
+			<Material PartID="8027099" Unit="EA" Qty="1" />
+			<Material PartID="8025042" Unit="EA" Qty="1" />
+			<Material PartID="6680003" Unit="EA" Qty="1" />
+			<Material PartID="6741006" Unit="EA" Qty="1" />
+			<Material PartID="6541004" Unit="EA" Qty="1" />
+			<Material PartID="6230007" Unit="EA" Qty="1" />
+			<Material PartID="2033501" Unit="EA" Qty="1" />
+			<Material PartID="3031003" Unit="EA" Qty="1" />
+			<Material PartID="2577401" Unit="EA" Qty="1" />
+			<Material PartID="2402816" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+</Parts>	
