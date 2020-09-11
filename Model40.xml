@@ -274,7 +274,7 @@
 			<Material PartID="9195100" Unit="IN" Qty="1" Size="1"/>
 		</Operation>
 		<Operation WC="EXT010">
-			<Material PartID="9999999" Unit="EA" Qty="1"/>
+			<Material PartID="9816001" Unit="EA" Qty="1"/>
 		</Operation>
 	</Part>
 	<Part PartID="8034325">
@@ -282,7 +282,7 @@
 			<Material PartID="9195100" Unit="IN" Qty="1" Size="2.5"/>
 		</Operation>
 		<Operation WC="EXT010">
-			<Material PartID="9999999" Unit="EA" Qty="1"/>
+			<Material PartID="9816001" Unit="EA" Qty="1"/>
 		</Operation>
 	</Part>
 	<Part PartID="8034290">
@@ -475,7 +475,7 @@
 			<Material PartID="8034286" Unit="EA" Qty="1"/>
 			<Material PartID="8034282" Unit="EA" Qty="1"/>
 			<Material PartID="3053005" Unit="EA" Qty="4"/>
-			<Material PartID="7161515-1" Unit="EA" Qty="1"/>
+			<Material PartID="7161515" Unit="EA" Qty="1"/>
 			<Material PartID="7163147-2" Unit="EA" Qty="1"/>
 			<Material PartID="7160747-1" Unit="EA" Qty="1"/>
 			<Material PartID="7163522" Unit="EA" Qty="5"/>

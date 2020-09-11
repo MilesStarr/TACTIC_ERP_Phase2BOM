@@ -253,30 +253,30 @@ class BOM:
         else:
             hSize = "Unknown Size"
 
-        hLen = None
+        hLen = ""
         try:
-            if int(hardwareMatchResult[2]) < 50 and int(hardwareMatchResult[2]) > 20 :
+            if int(hardwareMatchResult[1]) < 50 and int(hardwareMatchResult[1]) > 20 :
                 # Fastener with Length
                 inches = int(hardwareMatchResult[3]) // 8
                 eighths = int(hardwareMatchResult[3]) % 8
                 if eighths:
-                    hLen = ("{0:d} {1:d}/8" if inches > 0 else "{1:d}/8").format(inches, eighths)
+                    hLen = (", {0:d} {1:d}/8" if inches > 0 else "{1:d}/8").format(inches, eighths)
                 else:
-                    hLen = ("{0:d}" if inches > 0 else "").format(inches, eighths)
+                    hLen = (", {0:d}" if inches > 0 else "").format(inches, eighths)
         except:
-            hLen = ""
+            hLen = None
         
         if hardwareMatchResult[0][0] == "1":
-            stainless = "St. Stl."
+            stainless = ", St. Stl."
         else:
             stainless = ""
 
         if hardwareMatchResult[4] == "":
             special = ""
         else:
-            special = " something special here"
+            special = ",  something special here"
 
-        return hType + ", " + hSize + ", " + hLen + ", " + stainless + special
+        return hType + ", " + hSize + hLen + stainless + special
     
     def buildItem(self, PartID):
         OpColumns = ["Item", "Item Description", "Alternate ID", "Description", "Operation", "Shared", "WC", "WC Description", "Use Fixed Schedule", "Fixed Sched Hours", "Run-Hours Basis (Machine)", "Mach Hrs per Piece", "Run-Hours Basis (Labor)", "Labor Hr per Piece", "Sched Driver", "Run Duration", "Batch Definition", "Yield", "Seconds Per Cycle", "Formula Material Weight", "Formula Material Weight U/M", "Move Hours", "Queue Time", "Setup Hours", "Finish", "Use Offset Hours", "Offset Hours", "Effective Date", "Obsolete Date", "Control Point", "Backflush", "Setup Resource Group", "Setup Rule", "Setup Basis", "Setup Time Rule", "Setup Matrix", "Scheduler Rule", "Custom Planner Rule", "Break Rule", "Split Rule", "Split Size", "Split Group", "Efficiency", "Setup Rate", "Run Rate (Labor)", "Var Mach Ovhd Rate", "Fix Machine Ovhd Rate", "Var Ovhd Rate", "Fixed Ovhd Rate"]
