@@ -3,16 +3,6 @@
 	xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="BOM.xsd">
 	
-	<Part PartID="8025044-5">
-		<Operation WC="FAB010">
-			<Material PartID="3704301" Unit="In" Qty="1" Size="14" />
-		</Operation>
-		<Operation WC="FIN010" />
-		<Operation WC="EXT010">
-			<Material PartID="9816011" Unit="EA" Qty="1" />
-		</Operation>
-	</Part>
-	
 	<Part PartID="8025199">
 		<Operation WC="FAB010">
 			<Material PartID="9014245-4" Unit="In" Qty="1" Size="10" />
