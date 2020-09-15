@@ -8,7 +8,7 @@
 			<Material PartID="8025042-A" Unit="EA" Qty="1" />
 		</Operation>	
 		<Operation WC="EXT010">
-			<Material PartID="9816002" Unit="EA" Qty="1" />
+			<Material PartID="9816011" Unit="EA" Qty="1" />
 		</Operation>
 		<Operation WC="ASY010">
 			<Material PartID="3110004" Unit="EA" Qty="1" />

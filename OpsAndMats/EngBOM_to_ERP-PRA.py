@@ -14,7 +14,7 @@ import BOM
 import pandas as pd
 import xml.etree.ElementTree as etree
 
-name = "Model148"
+name = "Model76E"
 
 tree = etree.parse("../" + name + ".xml")
 
