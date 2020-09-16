@@ -159,6 +159,7 @@ class BOM:
                     recommendation['Item'] = itemSearch
                     recommendation['DESCRIPTION'] = "Failed Drawing Lookup"
                 recommendation['Phantom Flag'] = 1 if itemIsDWG[2] == "-X" else 0
+                recommendation['Product Code'] = "TT-MfgStep" if itemIsMfg is not None else "TT-NonSale"
             elif itemIsHardware:
                 hardwareInfo = self.fetchHardware(itemIsHardware)
                 recommendation['Item'] = itemSearch

@@ -12,9 +12,9 @@ sys.path.append(file_dir)
 
 import BOM
 import pandas as pd
-import xml.etree.ElementTree as etree
+from lxml import etree
 
-name = "Model76E"
+name = "Safety Whl Ass'y_8026015-X"
 
 tree = etree.parse("../" + name + ".xml")
 

@@ -47,7 +47,7 @@
 			<Material PartID="9510240-4" Unit="IN" Qty="1" Size="2.375" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="Mch060" />
+		<Operation WC="MCH060" />
 	</Part>
 	
 	<Part PartID="8025201-2">
@@ -55,7 +55,7 @@
 			<Material PartID="9510240-4" Unit="IN" Qty="1" Size="2.375" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="Mch060" />
+		<Operation WC="MCH060" />
 	</Part>
 	
 	<Part PartID="8028443-1">

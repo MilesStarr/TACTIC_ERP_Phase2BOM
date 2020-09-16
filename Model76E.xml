@@ -241,9 +241,10 @@
 			<Material PartID="6581024-2" Unit="EA" Qty="8" />
 			<Material PartID="6371022-1" Unit="EA" Qty="4" />
 			<Material PartID="1162801" Unit="EA" Qty="16" />
+			<Material PartID="1577401" Unit="EA" Qty="16"/>
 			<Material PartID="1527401" Unit="EA" Qty="16" />
-			<Material PartID="8027973" Unit="EA" Qty="1" />  <!-- clean -->
 			<Material PartID="1402808" Unit="EA" Qty="16" />
+			<Material PartID="8027973" Unit="EA" Qty="1" />  <!-- clean -->
 			<Material PartID="6111125" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
@@ -1485,7 +1486,6 @@
 			<Material PartID="1231706" Unit="EA" Qty="4"/>
 			<Material PartID="6090018" Unit="EA" Qty="2"/>
 			<Material PartID="1402808" Unit="EA" Qty="4"/>
-			<Material PartID="1577401" Unit="EA" Qty="4"/>
 			<Material PartID="1002801" Unit="EA" Qty="4"/>
 			<Material PartID="1527401" Unit="EA" Qty="4"/>
 			<Material PartID="3032003" Unit="EA" Qty="4"/>

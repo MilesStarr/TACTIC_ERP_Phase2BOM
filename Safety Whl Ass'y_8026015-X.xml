@@ -47,20 +47,17 @@
 	</Part>
 	
 	<Part PartID="8029500">
-		<Operation WC="ASY010">
+		<Operation WC="MCH070">
 			<Material PartID="6160014-2" Unit="EA" Qty="1" />
-		</Operation>
-		<Operation WC="EXT010">
-			<Material PartID="8029500-A" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
 	<Part PartID="8029291">
 		<Operation WC="ASY010">
-			<Material PartID="8029500" unit="EA" Qty="1" />
-			<Material PartID="6160016" unit="EA" Qty="1" />
-			<Material PartID="6160018-1" unit="EA" Qty="2" />
-			<Material PartID="6160017" unit="EA" Qty="1" />
+			<Material PartID="8029500" Unit="EA" Qty="1" />
+			<Material PartID="6160016" Unit="EA" Qty="1" />
+			<Material PartID="6160018-1" Unit="EA" Qty="2" />
+			<Material PartID="6160017" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
