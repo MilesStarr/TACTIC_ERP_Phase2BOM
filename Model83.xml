@@ -7,8 +7,7 @@
 	<Part PartID="8027920-X">
 		<Operation WC="ELC020">
 			<Material PartID="8027906" Unit="EA" Qty="1"/>
-			<Material PartID="8035451" Unit="EA" Qty="1"/>
-			<Material PartID="8027909" Unit="EA" Qty="1"/>
+			<Material PartID="8027907" Unit="EA" Qty="1"/>
 			<Material PartID="8026914-5" Unit="EA" Qty="1"/>
 			<Material PartID="8027859" Unit="EA" Qty="1"/>
 			<Material PartID="8026914-8" Unit="EA" Qty="1"/>
@@ -67,7 +66,7 @@
 
 <!-- START OUTPUT BOX ASSEMBLY INFO -->
 	<Part PartID="8035446-1">
-		<Operation>
+		<Operation WC="ELC020">
 			<Material PartID="8035439-4" Unit="EA" Qty="1"/>
 			<Material PartID="7735150-1" Unit="EA" Qty="1"/>
 			<Material PartID="7733104-1" Unit="EA" Qty="1"/>
@@ -79,7 +78,7 @@
 		</Operation>
 	</Part>
 	<Part PartID="8035446-11">
-		<Operation>
+		<Operation WC="ELC020">
 			<Material PartID="8035439-4" Unit="EA" Qty="1"/>
 			<Material PartID="7735150-1" Unit="EA" Qty="1"/>
 			<Material PartID="7733104-1" Unit="EA" Qty="1"/>
@@ -977,7 +976,7 @@
 	</Part>
 <!-- END RTL Feed Boxes -->
 
-	<Part PartID="8027909">
+	<Part PartID="8027907">
 		<Operation WC="ELC020">
 			<Material PartID="7135034" Unit="EA" Qty="1" />
 		</Operation>
