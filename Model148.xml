@@ -72,15 +72,6 @@
 		</Operation>
 	</Part>
 	
-	<Part PartID="8025044-9">
-		<Operation WC="FAB010">
-			<Material PartID="3704701" Unit="IN" Qty="1" Size="5.9375"/>
-		</Operation>
-		<Operation WC="EXT010">
-			<Material PartID="9816001" Unit="EA" Qty="1"/>
-		</Operation>
-	</Part>
-	
 	<Part PartID="8026391">
 		<Operation WC="FAB010">
 			<Material PartID="9030240-3" Unit="IN" Qty="1" Size="6"/>

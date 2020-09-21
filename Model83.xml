@@ -7,7 +7,6 @@
 	<Part PartID="8027920-X">
 		<Operation WC="ELC020">
 			<Material PartID="8027906" Unit="EA" Qty="1"/>
-			<Material PartID="8027907" Unit="EA" Qty="1"/>
 			<Material PartID="8026914-5" Unit="EA" Qty="1"/>
 			<Material PartID="8027859" Unit="EA" Qty="1"/>
 			<Material PartID="8026914-8" Unit="EA" Qty="1"/>
@@ -975,12 +974,6 @@
 		</Operation>
 	</Part>
 <!-- END RTL Feed Boxes -->
-
-	<Part PartID="8027907">
-		<Operation WC="ELC020">
-			<Material PartID="7135034" Unit="EA" Qty="1" />
-		</Operation>
-	</Part>
 
 	<Part PartID="8027906">
 		<Operation WC="ELC020">
