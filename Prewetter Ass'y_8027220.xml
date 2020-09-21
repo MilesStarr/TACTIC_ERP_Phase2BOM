@@ -82,64 +82,76 @@
 	</Part>
 	
 	<Part PartID="8027220-1">
+		<Operation WC="FAB080">
+			<Material PartID="8027200" Unit="EA" Qty="1" />
+		</Operation>
 		<Operation WC="ASY010">
 			<Material PartID="8027220-X" Unit="EA" Qty="1" />
 			<Material PartID="5106201" Unit="EA" Qty="1" />
 			<Material PartID="8033115" Unit="EA" Qty="1" />
-			<Material PartID="8027200" Unit="EA" Qty="1" />
 			<Material PartID="8026497-2" Unit="EA" Qty="1" />
 			<Material PartID="8027095" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
 	<Part PartID="8027220-2">
+		<Operation WC="FAB080">
+			<Material PartID="8027200" Unit="EA" Qty="1" />
+		</Operation>
 		<Operation WC="ASY010">
 			<Material PartID="8027220-X" Unit="EA" Qty="1" />
 			<Material PartID="5106201" Unit="EA" Qty="1" />
 			<Material PartID="8035491" Unit="EA" Qty="1" />
-			<Material PartID="8027200" Unit="EA" Qty="1" />
 			<Material PartID="8026497-2" Unit="EA" Qty="1" />
 			<Material PartID="8027095" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
 	<Part PartID="8027220-3">
+		<Operation WC="FAB080">
+			<Material PartID="8027200" Unit="EA" Qty="1" />
+		</Operation>
 		<Operation WC="ASY010">
 			<Material PartID="8027220-X" Unit="EA" Qty="1" />
 			<Material PartID="5106201" Unit="EA" Qty="1" />
 			<Material PartID="8033115" Unit="EA" Qty="1" />
-			<Material PartID="8027200" Unit="EA" Qty="1" />
 			<Material PartID="8026497-2" Unit="EA" Qty="1" />
 			<Material PartID="8027095" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
 	<Part PartID="8027220-4">
+		<Operation WC="FAB080">
+			<Material PartID="8027200" Unit="EA" Qty="1" />
+		</Operation>
 		<Operation WC="ASY010">
 			<Material PartID="8027220-X" Unit="EA" Qty="1" />
 			<Material PartID="5106201" Unit="EA" Qty="1" />
 			<Material PartID="8035491" Unit="EA" Qty="1" />
-			<Material PartID="8027200" Unit="EA" Qty="1" />
 			<Material PartID="8026497-2" Unit="EA" Qty="1" />
 			<Material PartID="8027095" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
 	<Part PartID="8027220-5">
+		<Operation WC="FAB080">
+			<Material PartID="8027200" Unit="EA" Qty="1" />
+		</Operation>
 		<Operation WC="ASY010">
 			<Material PartID="8027220-X" Unit="EA" Qty="1" />
 			<Material PartID="8027201" Unit="EA" Qty="1" />
-			<Material PartID="8027200" Unit="EA" Qty="1" />
 			<Material PartID="8026497-1" Unit="EA" Qty="1" />
 			<Material PartID="8027095" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
 	<Part PartID="8027220-6">
+		<Operation WC="FAB080">
+			<Material PartID="8027300" Unit="EA" Qty="1" />
+		</Operation>
 		<Operation WC="ASY010">
 			<Material PartID="8027220-X" Unit="EA" Qty="1" />
 			<Material PartID="8027201" Unit="EA" Qty="1" />
-			<Material PartID="8029300" Unit="EA" Qty="1" />
 			<Material PartID="8029309" Unit="EA" Qty="1" />
 			<Material PartID="8026497-1" Unit="EA" Qty="1" />
 			<Material PartID="8029301" Unit="EA" Qty="1" />
@@ -147,10 +159,12 @@
 	</Part>
 	
 	<Part PartID="8027220-7">
+		<Operation WC="FAB080">
+			<Material PartID="8027200" Unit="EA" Qty="1" />
+		</Operation>
 		<Operation WC="ASY010">
 			<Material PartID="8027220-X" Unit="EA" Qty="1" />
 			<Material PartID="8027201" Unit="EA" Qty="1" />
-			<Material PartID="8027200" Unit="EA" Qty="1" />
 			<Material PartID="8026497-1" Unit="EA" Qty="1" />
 			<Material PartID="8027095" Unit="EA" Qty="1" />
 		</Operation>
