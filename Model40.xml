@@ -253,7 +253,7 @@
 			<Material PartID="6960070" Unit="EA" Qty="1"/>
 			<Material PartID="8035019" Unit="EA" Qty="1"/>
 			<Material PartID="1422006" Unit="EA" Qty="1"/>
-			<Material PartID="9152019" Unit="EA" Qty="1"/>
+			<Material PartID="9152019" Unit="IN" Qty="1" Size="2" />
 			<Material PartID="5146431" Unit="EA" Qty="1"/>
 			<Material PartID="5102301" Unit="EA" Qty="1"/>
 			<Material PartID="5262303" Unit="EA" Qty="1"/>
