@@ -23,7 +23,7 @@
 	</Part>
 	<Part PartID="8025044-3">
 		<Operation WC="FAB010">
-			<Material PartID="3704043" Unit="IN" Qty="1" Size="5.9375" />
+			<Material PartID="3704301" Unit="IN" Qty="1" Size="5.9375" />
 		</Operation>
 		<Operation WC="MCH060" />
 		<Operation WC="EXT010">
@@ -41,7 +41,7 @@
 	</Part>
 	<Part PartID="8025044-5">
 		<Operation WC="FAB010">
-			<Material PartID="3704043" Unit="IN" Qty="1" Size="14" />
+			<Material PartID="3704301" Unit="IN" Qty="1" Size="14" />
 		</Operation>
 		<Operation WC="MCH060" />
 		<Operation WC="EXT010">
@@ -68,7 +68,7 @@
 	</Part>
 	<Part PartID="8025044-8">
 		<Operation WC="FAB010">
-			<Material PartID="3704043" Unit="IN" Qty="1" Size="10.625" />
+			<Material PartID="3704301" Unit="IN" Qty="1" Size="10.625" />
 		</Operation>
 		<Operation WC="MCH060" />
 		<Operation WC="EXT010">
@@ -86,7 +86,7 @@
 	</Part>
 	<Part PartID="8025044-10">
 		<Operation WC="FAB010">
-			<Material PartID="3704043" Unit="IN" Qty="1" Size="7.5" />
+			<Material PartID="3704301" Unit="IN" Qty="1" Size="7.5" />
 		</Operation>
 		<Operation WC="MCH060" />
 		<Operation WC="EXT010">
@@ -95,7 +95,7 @@
 	</Part>
 	<Part PartID="8025044-11">
 		<Operation WC="FAB010">
-			<Material PartID="3704043" Unit="IN" Qty="1" Size="10" />
+			<Material PartID="3704301" Unit="IN" Qty="1" Size="10" />
 		</Operation>
 		<Operation WC="MCH060" />
 		<Operation WC="EXT010">
@@ -113,7 +113,7 @@
 	</Part>
 	<Part PartID="8025044-13">
 		<Operation WC="FAB010">
-			<Material PartID="3704043" Unit="IN" Qty="1" Size="11.5" />
+			<Material PartID="3704301" Unit="IN" Qty="1" Size="11.5" />
 		</Operation>
 		<Operation WC="MCH060" />
 		<Operation WC="EXT010">
@@ -122,7 +122,7 @@
 	</Part>
 	<Part PartID="8025044-14">
 		<Operation WC="FAB010">
-			<Material PartID="3704043" Unit="IN" Qty="1" Size="16.5" />
+			<Material PartID="3704301" Unit="IN" Qty="1" Size="16.5" />
 		</Operation>
 		<Operation WC="MCH060" />
 		<Operation WC="EXT010">
@@ -131,7 +131,7 @@
 	</Part>
 	<Part PartID="8025044-15">
 		<Operation WC="FAB010">
-			<Material PartID="3704043" Unit="IN" Qty="1" Size="9.625" />
+			<Material PartID="3704301" Unit="IN" Qty="1" Size="9.625" />
 		</Operation>
 		<Operation WC="MCH060" />
 		<Operation WC="EXT010">
