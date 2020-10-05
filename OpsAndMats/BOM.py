@@ -83,7 +83,8 @@ class BOM:
                 print(str(key) + " == " + str(value) + " already recommended as missing")
                 return recExists.iloc[0]
         else:
-            print("multiple rows match " + key + " == " + value)
+            print("multiple rows match " + str(key) + " == " + str(value))
+            return partItemDef.iloc[0]
     
     def makeItemRecommendation(self, **kwargs):
         #default items table row definition
@@ -423,6 +424,34 @@ class BOM:
                     'dash': modifier[cableMatchResult['dash']] if cableMatchResult['dash'] in modifier.keys() else ", Unknown dash type"}
         return "Cable, {ct}, {nCond}, {size}{dash}".format(**itemDict)
         
+    def isErrorInBOM(self, start = "", visited = [], depth = 0):
+        errorExists = False
+        if start == "":
+            checkList = self.BOM.findall(".//Part")
+            visited = []
+        else:
+            checkPart = self.BOM.find(".//Part[@PartID='{0}']".format(start))
+            visited.append(checkPart.attrib['PartID'])
+            checkList = []
+            for mat in checkPart.findall(".//Material"):
+                if mat.attrib['PartID'] in visited:
+                    print("Found circular reference in Part {} sourcing Material {}".format(checkPart.attrib['PartID'], mat.attrib['PartID']))
+                    errorExists = True
+                else:
+                    getRef = self.BOM.findall(".//Part[@PartID='{0}']".format(mat.attrib['PartID']))
+                    if len(getRef) == 0:
+                        pass
+                    elif len(getRef) > 1:
+                        print("Multiple listing for Part {} in the XML file".format(mat.attrib['PartID']))
+                        errorExists = True
+                    else:
+                        checkList.append(getRef[0])
+        print("\t"*depth, len(checkList), " materials in ", start, " against ", len(visited), " previous entries")
+        for checkMe in checkList:
+            print("\t"*(depth+1), "Checking {}".format(checkMe.attrib['PartID']))
+            newError = self.isErrorInBOM(start = checkMe.attrib['PartID'], visited = copy.copy(visited), depth = depth + 1)
+            errorExists = errorExists or newError
+        return errorExists
 
 
 
