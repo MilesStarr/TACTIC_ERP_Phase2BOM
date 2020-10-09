@@ -147,8 +147,8 @@
 			<Material PartID="8027060" Unit="EA" Qty="1" />
 			<Material PartID="8025785" Unit="EA" Qty="1" />
 			<Material PartID="8010002" Unit="EA" Qty="1" />
-			<Material PartID="6092007-459" Unit="EA" Qty="1" />
-			<Material PartID="1702001-459" Unit="EA" Qty="4" />
+			<Material PartID="6092007" Unit="EA" Qty="1" />
+			<Material PartID="1702001" Unit="IN" Qty="4" Size="1.625" />
 			<Material PartID="6370004" Unit="EA" Qty="2" />
 			<Material PartID="1331404-1" Unit="EA" Qty="3" />
 			<Material PartID="1527202" Unit="EA" Qty="6" />
