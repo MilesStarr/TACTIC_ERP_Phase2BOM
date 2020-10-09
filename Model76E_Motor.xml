@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Parts Group="Model 76E Motor"
+	xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="BOM.xsd">
+
+	<Part PartID="8035490-X">
+		<Operation WC="ASY010">
+			<Material PartID="8033804-1" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="8033804-2" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="8033805-1" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="8033805-2" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="8033807-1" Unit="EA" Qty="2"/>  <!-- clean -->
+			<Material PartID="8033807-2" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="8034129" Unit="EA" Qty="4"/>  <!-- clean -->
+			<Material PartID="8033899" Unit="EA" Qty="2"/>  <!-- clean -->
+			<Material PartID="8025973" Unit="EA" Qty="4"/>  <!-- clean -->
+			<Material PartID="8033391" Unit="EA" Qty="4"/>  <!-- clean -->
+			<Material PartID="8033656-2" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="8033658" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="8033394" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="8033657" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="8033659" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="8033806" Unit="EA" Qty="1"/>  <!-- clean -->
+			<Material PartID="6621200" Unit="EA" Qty="1"/>
+			<Material PartID="6830055" Unit="EA" Qty="1"/>
+			<Material PartID="6140043" Unit="EA" Qty="1"/>
+			<Material PartID="6710010" Unit="EA" Qty="4"/>
+			<Material PartID="2402008" Unit="EA" Qty="6"/>
+			<Material PartID="2577201" Unit="EA" Qty="32"/>
+			<Material PartID="2507201" Unit="EA" Qty="14"/>
+			<Material PartID="2032001" Unit="EA" Qty="10"/>
+			<Material PartID="2507401" Unit="EA" Qty="24"/>
+			<Material PartID="2577401" Unit="EA" Qty="14"/>
+			<Material PartID="2032801" Unit="EA" Qty="10"/>
+			<Material PartID="2402816" Unit="EA" Qty="4"/>
+			<Material PartID="2033501" Unit="EA" Qty="4"/>
+			<Material PartID="2577601" Unit="EA" Qty="8"/>
+			<Material PartID="2507601" Unit="EA" Qty="12"/>
+			<Material PartID="2402010" Unit="EA" Qty="6"/>
+			<Material PartID="2402012" Unit="EA" Qty="1"/>
+			<Material PartID="2402808" Unit="EA" Qty="4"/>
+			<Material PartID="2403536" Unit="EA" Qty="4"/>
+			<Material PartID="2403510" Unit="EA" Qty="4"/>
+			<Material PartID="2292012" Unit="EA" Qty="1"/>
+			<Material PartID="2402822" Unit="EA" Qty="6"/>
+			<Material PartID="2547601" Unit="EA" Qty="4"/>
+		</Operation>
+	</Part>
+	<Part PartID="M76EX-3HP">
+		<Operation WC="ASY010">
+			<Material PartID="8035490-X" Unit="EA" Qty="1" />
+			<Material PartID="7472003-2" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	<Part PartID="M76EX-5HP">
+		<Operation WC="ASY010">
+			<Material PartID="8035490-X" Unit="EA" Qty="1" />
+			<Material PartID="7472005" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+
+	<Part PartID="8033804-X">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9014507-6" Unit="IN" Qty="1" Size="30" />
+		</Operation>
+	</Part>
+	<Part PartID="8033804-1">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="8033804-X" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="MCH010" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>	
+	</Part>
+	<Part PartID="8033804-2">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="8033804-X" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="MCH010" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>	
+	</Part>
+
+	<Part PartID="8033805-X">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9014304-6" Unit="IN" Qty="1" Size="28.5" />
+		</Operation>
+	</Part>
+	<Part PartID="8033805-1">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="8033805-X" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>	
+	</Part>
+	<Part PartID="8033805-2">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="8033805-X" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>	
+	</Part>
+
+	<Part PartID="8033807-X">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9015341" Unit="IN" Qty="1" Size="16.25" />
+		</Operation>
+	</Part>
+	<Part PartID="8033807-1">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="8033807-X" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="MCH010" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>	
+	</Part>
+	<Part PartID="8033807-2">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="8033807-X" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>	
+	</Part>
+	<Part PartID="8033807-3">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="8033807-X" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FAB080" />
+		<Operation WC="MCH010" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>	
+	</Part>
+
+	<Part PartID="8034129">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9010240-5" Unit="IN" Qty="1" Size="2.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+
+	<Part PartID="8033899">  <!-- clean -->
+		<Operation WC="FAB070">
+			<Material PartID="8033898-1" Unit="EA" Qty="1" />
+			<Material PartID="8033898-2" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8033898-1">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9014203-4" Unit="IN" Qty="1" Size="7.8125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+	</Part>
+	<Part PartID="8033898-2">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9014203-4" Unit="IN" Qty="1" Size="4.3125" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+	</Part>
+
+	<Part PartID="8025973">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9030200-3" Unit="IN" Qty="1" Size="2" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+
+	<Part PartID="8033391">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9014408-8" Unit="IN" Qty="1" Size="4.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FAB080" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+
+	<Part PartID="8033656-1">  <!-- clean -->
+		<Operation WC="FIN010">
+			<Material PartID="8033656-1A" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.125" />
+		</Operation>
+	</Part>
+	<Part PartID="8033656-2">  <!-- clean -->
+		<Operation WC="FIN010">
+			<Material PartID="8033656-2A" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="FIN020">
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.125" />
+		</Operation>
+	</Part>
+
+	<Part PartID="8033657">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9014122-3" Unit="IN" Qty="1" Size="15.25" />
+		</Operation>
+		<Operation WC="FAB010" />
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+	<Part PartID="8033659">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9014122-3" Unit="IN" Qty="1" Size="15.25" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+
+	<Part PartID="8033658">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9015200-1" Unit="IN" Qty="1" Size="18.75" />
+		</Operation>
+		<Operation WC="FAB010" />
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+
+	<Part PartID="8033394">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9014122-3" Unit="IN" Qty="1" Size="5.5" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+
+	<Part PartID="8033806">  <!-- clean -->
+		<Operation WC="FAB010">
+			<Material PartID="9014122-3" Unit="IN" Qty="1" Size="22.625" />
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
+		<Operation WC="FIN010" />
+		<Operation WC="FIN020">
+			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
+		</Operation>
+	</Part>
+
+</Parts>

@@ -5,7 +5,7 @@
 
 
 <!-- Shaft Guards -->
-	<Part PartID="8026139-01">
+	<Part PartID="8026139-1">
 		<Operation WC="FAB010">
 			<Material PartID="8026139" Unit="IN" Qty="1" Size="19.9375" />
 		</Operation>
@@ -17,7 +17,7 @@
 			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
 		</Operation>
 	</Part>
-	<Part PartID="8026139-02">
+	<Part PartID="8026139-2">
 		<Operation WC="FAB010">
 			<Material PartID="8026139" Unit="IN" Qty="1" Size="24.25" />
 		</Operation>
@@ -29,7 +29,7 @@
 			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
 		</Operation>
 	</Part>
-	<Part PartID="8026139-03">
+	<Part PartID="8026139-3">
 		<Operation WC="FAB010">
 			<Material PartID="8026139" Unit="IN" Qty="1" Size="19.5" />
 		</Operation>
@@ -41,7 +41,7 @@
 			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
 		</Operation>
 	</Part>
-	<Part PartID="8026139-04">
+	<Part PartID="8026139-4">
 		<Operation WC="FAB010">
 			<Material PartID="8026139" Unit="IN" Qty="1" Size="44.75" />
 		</Operation>
@@ -53,7 +53,7 @@
 			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
 		</Operation>
 	</Part>
-	<Part PartID="8026139-05">
+	<Part PartID="8026139-5">
 		<Operation WC="FAB010">
 			<Material PartID="8026139" Unit="IN" Qty="1" Size="10.25" />
 		</Operation>
@@ -65,7 +65,7 @@
 			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
 		</Operation>
 	</Part>
-	<Part PartID="8026139-06">
+	<Part PartID="8026139-6">
 		<Operation WC="FAB010">
 			<Material PartID="8026139" Unit="IN" Qty="1" Size="21.5625" />
 		</Operation>
@@ -77,7 +77,7 @@
 			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
 		</Operation>
 	</Part>
-	<Part PartID="8026139-07">
+	<Part PartID="8026139-7">
 		<Operation WC="FAB010">
 			<Material PartID="8026139" Unit="IN" Qty="1" Size="20.25" />
 		</Operation>
@@ -89,7 +89,7 @@
 			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
 		</Operation>
 	</Part>
-	<Part PartID="8026139-08">
+	<Part PartID="8026139-8">
 		<Operation WC="FAB010">
 			<Material PartID="8026139" Unit="IN" Qty="1" Size="28.125" />
 		</Operation>
@@ -101,7 +101,7 @@
 			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.0625" />
 		</Operation>
 	</Part>
-	<Part PartID="8026139-09">
+	<Part PartID="8026139-9">
 		<Operation WC="FAB010">
 			<Material PartID="8026139" Unit="IN" Qty="1" Size="52.375" />
 		</Operation>

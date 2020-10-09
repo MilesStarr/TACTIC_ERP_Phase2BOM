@@ -21,7 +21,7 @@
 			<Material PartID="7181007" Unit="EA" Qty="2"/>
 			<Material PartID="2292008" Unit="EA" Qty="3"/>
 			<Material PartID="2152002" Unit="EA" Qty="3"/>
-			<Material PartID="9561031-A" Unit="EA" Qty="2"/>
+			<Material PartID="9561031-A" Unit="IN" Qty="2" Size="26" />
 			<Material PartID="9735003" Unit="EA" Qty="2"/>
 			<Material PartID="9710001" Unit="EA" Qty="1"/>
 			<Material PartID="2507201" Unit="EA" Qty="8"/>
@@ -69,15 +69,6 @@
 			<Material PartID="8025044-9" Unit="EA" Qty="1"/>
 			<Material PartID="2034701" Unit="EA" Qty="2"/>
 			<Material PartID="8026391" Unit="EA" Qty="1"/>
-		</Operation>
-	</Part>
-	
-	<Part PartID="8025044-9">
-		<Operation WC="FAB010">
-			<Material PartID="3704701" Unit="IN" Qty="1" Size="5.9375"/>
-		</Operation>
-		<Operation WC="EXT010">
-			<Material PartID="9816001" Unit="EA" Qty="1"/>
 		</Operation>
 	</Part>
 	

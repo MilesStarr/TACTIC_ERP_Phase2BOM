@@ -67,7 +67,7 @@
 		</Operation>
 		<Operation WC="FIN010" />
 		<Operation WC="FIN020">
-			<Material PartID="9812002" Unit="g" Qty="40"/>
+			<Material PartID="9812002" Unit="PT" Qty="0.0625"/>
 		</Operation>
 	</Part>
 
@@ -77,7 +77,7 @@
 		</Operation>
 		<Operation WC="FIN010" />
 		<Operation WC="FIN020">
-			<Material PartID="9812002" Unit="g" Qty="40"/>
+			<Material PartID="9812002" Unit="PT" Qty="0.0625"/>
 		</Operation>
 	</Part>
 

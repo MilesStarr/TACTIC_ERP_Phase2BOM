@@ -39,7 +39,7 @@
 		</Operation>
 	</Part>
 	
-	<Part PartID="M-105-X">
+	<Part PartID="8034020-X">
 		<Operation WC="ASY010">
 			<Material PartID="2507201" Unit="EA" Qty="14" />
 			<Material PartID="2577201" Unit="EA" Qty="10" />
@@ -64,7 +64,7 @@
 	
 	<Part PartID="M-105-1">
 		<Operation WC="ASY010">
-			<Material PartID="M-105-X" Unit="EA" Qty="1" />
+			<Material PartID="8034020-X" Unit="EA" Qty="1" />
 			<Material PartID="2402008" Unit="EA" Qty="2" />
 			<Material PartID="6140007" Unit="EA" Qty="1" />
 			<Material PartID="8026139-158" Unit="EA" Qty="1" />
@@ -73,7 +73,7 @@
 	
 	<Part PartID="M-105-2">
 		<Operation WC="ASY010">
-			<Material PartID="M-105-X" Unit="EA" Qty="1" />
+			<Material PartID="8034020-X" Unit="EA" Qty="1" />
 			<Material PartID="2402012" Unit="EA" Qty="2" />
 			<Material PartID="6140011" Unit="EA" Qty="1" />
 			<Material PartID="8026139-1" Unit="EA" Qty="1" />
@@ -82,7 +82,7 @@
 	
 	<Part PartID="M-105-3">
 		<Operation WC="ASY010">
-			<Material PartID="M-105-3" Unit="EA" Qty="1" />
+			<Material PartID="8034020-X" Unit="EA" Qty="1" />
 			<Material PartID="2402008" Unit="EA" Qty="2" />
 			<Material PartID="6140007" Unit="EA" Qty="1" />
 			<Material PartID="8026139-159" Unit="EA" Qty="1" />
@@ -91,7 +91,7 @@
 	
 	<Part PartID="M-105-4">
 		<Operation WC="ASY010">
-			<Material PartID="M-105-X" Unit="EA" Qty="1" />
+			<Material PartID="8034020-X" Unit="EA" Qty="1" />
 			<Material PartID="2402008" Unit="EA" Qty="2" />
 			<Material PartID="6140007" Unit="EA" Qty="1" />
 			<Material PartID="8026139-135" Unit="EA" Qty="1" />
@@ -100,7 +100,7 @@
 	
 	<Part PartID="M-105-5">
 		<Operation WC="ASY010">
-			<Material PartID="M-105-X" Unit="EA" Qty="1" />
+			<Material PartID="8034020-X" Unit="EA" Qty="1" />
 			<Material PartID="2402008" Unit="EA" Qty="2" />
 			<Material PartID="6140007" Unit="EA" Qty="1" />
 			<Material PartID="8026139-160" Unit="EA" Qty="1" />
@@ -109,7 +109,7 @@
 	
 	<Part PartID="M-105-6">
 		<Operation WC="ASY010">
-			<Material PartID="M-105-X" Unit="EA" Qty="1" />
+			<Material PartID="8034020-X" Unit="EA" Qty="1" />
 			<Material PartID="2402008" Unit="EA" Qty="2" />
 			<Material PartID="6140007" Unit="EA" Qty="1" />
 			<Material PartID="8026139-157" Unit="EA" Qty="1" />

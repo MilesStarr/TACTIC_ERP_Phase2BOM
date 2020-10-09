@@ -14,7 +14,7 @@ import re
 class BOM:
     
     def __init__(self, BOM = etree.fromstring("<Parts Group='None'><Part ITEM_KEY='Junk'></Part></Parts>")):
-        self.item_dtypes = {'Item': str, 'DESCRIPTION': str, 'Long Description': str, 'Revision': str, 'Revision Track': int, 'ECN': int, 'Drawing Number': str, 'Alternate Item': str, 'Buyer': str, 'Stocked': int, 'Show In Drop-Down Lists': int, 'U/M': str, 'Type': str, 'Source': str, 'Product Code': str, 'ABC Code': str, 'Cost Type': str, 'Cost Method': str, 'Unit Cost': str, 'Current Unit Cost': str, 'Lot Size': int, 'Unit Weight': int, 'Weight Units': str, 'Quantity On Hand': float, 'Non-Nettable Stock': float, 'Safety Stock': float, 'Quantity Ordered': float, 'Quantity WIP': float, 'Allocated To Prod': float, 'Allocated To Customer Orders': float, 'Reserved For Customer Orders': float, 'Low Level': int, 'Active for Data Integration': int, 'Planner Code': str, 'Shrink Factor': float, 'Phantom Flag': int, 'MPS Flag': int, 'Net Change': int, 'MPS Plan Fence': int, 'Family Code': str, 'Production Type': str, 'Rate/Day': float, 'Inventory LCL %': str, 'Inventory UCL %': str, 'Supply Site': str, 'Supply Whse': str, 'Paper Work': int, 'Fixed Lead Time': int, 'Expedited Fixed': int, 'Dock-to-Stock': int, 'Variable': int, 'Expedited Variable': int, 'Separation': str, 'Release 1': str, 'Release 2': str, 'Release 3': str, 'MRP Item': int, 'Infinite': int, 'Planned Mfg Supply Switching': int, 'Accept Requirements': int, 'Pass Requirements': int, 'Must use future POs before creating PLNs': int, 'Supply Usage Tolerance': int, 'Time Fence Rule': str, 'Time Fence Value': int, 'Pull-Up SS Rule': str, 'Pull-Up SS Value': int, 'Setup Group': str, 'Charge Item': str, 'Order Minimum': int, 'Order Multiple': int, 'Order Maximum': int, 'Days Supply': int, 'Use Reorder Point': int, 'Reorder Point': int, 'Fixed Order Qty': int, 'Earliest Planned Purchase Receipt': str, 'Targeted Safety Stock Replenishment': str, 'Lot Track': int, 'Preassign Lots': int, 'Lot Prefix': str, 'S/N Track': int, 'Preassign Serials': int, 'S/N Prefix': str, 'Shelf Life': str, 'Issue By': str, 'Material Status': str, 'Reason': str, 'Last Change': str, 'User': str, 'Backflush': int, 'Backflush Location': str, 'Preferred Co-product Mix': str, 'Reservable': int, 'Tax-Free Imported Material': int, 'Tax Free Days': int, 'Safety Stock Percent': int, 'Tariff Classification': str, 'PO Tolerance Over': str, 'PO Tolerance Under': str, 'Kit': int, 'Print Kit Components on Customer Paperwork': int, 'Std Due Period': str, 'Commodity': str, 'Commodity Description': str, 'Tax Code': str, 'Tax Code Description': str, 'Origin': str, 'Country': str, 'Preference Criterion': str, 'Country Of Origin': str, 'Producer': int, 'Subject To RVC Requirements': int, 'Purchased YTD': float, 'Manufactured YTD': float, 'Used YTD': float, 'Sold YTD': float, 'Subject To Excise Tax': int, 'Excise Tax Percent': float, 'Wholesale Price': float, 'Includes Item Content': int, 'Order Configurable': int, 'Job Configurable': int, 'Auto Job Generation': str, 'Name Space': str, 'Configuration Flag': int, 'Feature String': str, 'Feature Template': str, 'Last Import Date': str, 'Save Current Revision Upon Import': int, 'Overview': str, 'Active For Customer Portal': int, 'Featured Item': int, 'Top Seller': int, 'Item Attribute Group': str, 'Item Attribute Group Description': str, 'Lot Attribute Group': str, 'Lot Attribute Group Description': str, 'Enable Pieces Inventory': int, 'Piece Dimension Group': str, 'Piece Dimension Group Description': str, 'Portal Pricing Enabled': int, 'Portal Pricing Site': str, 'Freight': str, 'Estimated Break Date': str, 'Date of Last Report': str, 'Commodity Jurisdiction': str, 'ECCN or USML CAT': str, 'Program (ITAR/EAR600 Series)': str, 'Schedule B Number': str, 'HTS Code': str, 'HTS Code Description': str, 'Country Of Origin': str, 'Length Linear Dimension': str, 'Linear Dimension UM': str, 'Width Linear Dimension': str, 'Height Linear Dimension': str, 'Density': float, 'Density UM': str, 'Area': float, 'Area UM': str, 'Bulk Mass': float, 'Bulk Mass UM': str, 'Ream Mass': float, 'Ream Mass UM': str, 'Paper Mass Basis': str, 'Grade': str, 'Abnormal Size': int}
+        self.item_dtypes = {'Item': str, 'DESCRIPTION': str, 'TacTic Description': str, 'Revision': str, 'Revision Track': int, 'ECN': int, 'Drawing Number': str, 'Alternate Item': str, 'Buyer': str, 'Stocked': int, 'Show In Drop-Down Lists': int, 'U/M': str, 'Type': str, 'Source': str, 'Product Code': str, 'ABC Code': str, 'Cost Type': str, 'Cost Method': str, 'Unit Cost': str, 'Current Unit Cost': str, 'Lot Size': int, 'Unit Weight': int, 'Weight Units': str, 'Quantity On Hand': float, 'Non-Nettable Stock': float, 'Safety Stock': float, 'Quantity Ordered': float, 'Quantity WIP': float, 'Allocated To Prod': float, 'Allocated To Customer Orders': float, 'Reserved For Customer Orders': float, 'Low Level': int, 'Active for Data Integration': int, 'Planner Code': str, 'Shrink Factor': float, 'Phantom Flag': int, 'MPS Flag': int, 'Net Change': int, 'MPS Plan Fence': int, 'Family Code': str, 'Production Type': str, 'Rate/Day': float, 'Inventory LCL %': str, 'Inventory UCL %': str, 'Supply Site': str, 'Supply Whse': str, 'Paper Work': int, 'Fixed Lead Time': int, 'Expedited Fixed': int, 'Dock-to-Stock': int, 'Variable': int, 'Expedited Variable': int, 'Separation': str, 'Release 1': str, 'Release 2': str, 'Release 3': str, 'MRP Item': int, 'Infinite': int, 'Planned Mfg Supply Switching': int, 'Accept Requirements': int, 'Pass Requirements': int, 'Must use future POs before creating PLNs': int, 'Supply Usage Tolerance': int, 'Time Fence Rule': str, 'Time Fence Value': int, 'Pull-Up SS Rule': str, 'Pull-Up SS Value': int, 'Setup Group': str, 'Charge Item': str, 'Order Minimum': int, 'Order Multiple': int, 'Order Maximum': int, 'Days Supply': int, 'Use Reorder Point': int, 'Reorder Point': int, 'Fixed Order Qty': int, 'Earliest Planned Purchase Receipt': str, 'Targeted Safety Stock Replenishment': str, 'Lot Track': int, 'Preassign Lots': int, 'Lot Prefix': str, 'S/N Track': int, 'Preassign Serials': int, 'S/N Prefix': str, 'Shelf Life': str, 'Issue By': str, 'Material Status': str, 'Reason': str, 'Last Change': str, 'User': str, 'Backflush': int, 'Backflush Location': str, 'Preferred Co-product Mix': str, 'Reservable': int, 'Tax-Free Imported Material': int, 'Tax Free Days': int, 'Safety Stock Percent': int, 'Tariff Classification': str, 'PO Tolerance Over': str, 'PO Tolerance Under': str, 'Kit': int, 'Print Kit Components on Customer Paperwork': int, 'Std Due Period': str, 'Commodity': str, 'Commodity Description': str, 'Tax Code': str, 'Tax Code Description': str, 'Origin': str, 'Country': str, 'Preference Criterion': str, 'Country Of Origin': str, 'Producer': int, 'Subject To RVC Requirements': int, 'Purchased YTD': float, 'Manufactured YTD': float, 'Used YTD': float, 'Sold YTD': float, 'Subject To Excise Tax': int, 'Excise Tax Percent': float, 'Wholesale Price': float, 'Includes Item Content': int, 'Order Configurable': int, 'Job Configurable': int, 'Auto Job Generation': str, 'Name Space': str, 'Configuration Flag': int, 'Feature String': str, 'Feature Template': str, 'Last Import Date': str, 'Save Current Revision Upon Import': int, 'Overview': str, 'Active For Customer Portal': int, 'Featured Item': int, 'Top Seller': int, 'Item Attribute Group': str, 'Item Attribute Group Description': str, 'Lot Attribute Group': str, 'Lot Attribute Group Description': str, 'Enable Pieces Inventory': int, 'Piece Dimension Group': str, 'Piece Dimension Group Description': str, 'Portal Pricing Enabled': int, 'Portal Pricing Site': str, 'Freight': str, 'Estimated Break Date': str, 'Date of Last Report': str, 'Commodity Jurisdiction': str, 'ECCN or USML CAT': str, 'Program (ITAR/EAR600 Series)': str, 'Schedule B Number': str, 'HTS Code': str, 'HTS Code Description': str, 'Country Of Origin': str, 'Length Linear Dimension': str, 'Linear Dimension UM': str, 'Width Linear Dimension': str, 'Height Linear Dimension': str, 'Density': float, 'Density UM': str, 'Area': float, 'Area UM': str, 'Bulk Mass': float, 'Bulk Mass UM': str, 'Ream Mass': float, 'Ream Mass UM': str, 'Paper Mass Basis': str, 'Grade': str, 'Abnormal Size': int}
         self.items = pd.read_excel(r"\\TACTICFILE\Public\Everyone\ERP\Item Database (CSI Format) Pilot2.xlsx", sheet_name="Item Database (CSI Format)", converters=self.item_dtypes).fillna("")
         
 #        self.dwgindex_dtypes = {'SIZE': str, 'DWG. NO.': str, 'TITLE': str, 'MODEL': str, 'DRN': str, 'DATE': str, 'PROJECT': str,'BOOK': str}
@@ -83,7 +83,8 @@ class BOM:
                 print(str(key) + " == " + str(value) + " already recommended as missing")
                 return recExists.iloc[0]
         else:
-            print("multiple rows match " + key + " == " + value)
+            print("multiple rows match " + str(key) + " == " + str(value))
+            return partItemDef.iloc[0]
     
     def makeItemRecommendation(self, **kwargs):
         #default items table row definition
@@ -159,6 +160,7 @@ class BOM:
                     recommendation['Item'] = itemSearch
                     recommendation['DESCRIPTION'] = "Failed Drawing Lookup"
                 recommendation['Phantom Flag'] = 1 if itemIsDWG[2] == "-X" else 0
+                recommendation['Product Code'] = "TT-MfgStep" if itemIsMfg is not None else "TT-NonSale"
             elif itemIsHardware:
                 hardwareInfo = self.fetchHardware(itemIsHardware)
                 recommendation['Item'] = itemSearch
@@ -422,6 +424,34 @@ class BOM:
                     'dash': modifier[cableMatchResult['dash']] if cableMatchResult['dash'] in modifier.keys() else ", Unknown dash type"}
         return "Cable, {ct}, {nCond}, {size}{dash}".format(**itemDict)
         
+    def isErrorInBOM(self, start = "", visited = [], depth = 0):
+        errorExists = False
+        if start == "":
+            checkList = self.BOM.findall(".//Part")
+            visited = []
+        else:
+            checkPart = self.BOM.find(".//Part[@PartID='{0}']".format(start))
+            visited.append(checkPart.attrib['PartID'])
+            checkList = []
+            for mat in checkPart.findall(".//Material"):
+                if mat.attrib['PartID'] in visited:
+                    print("Found circular reference in Part {} sourcing Material {}".format(checkPart.attrib['PartID'], mat.attrib['PartID']))
+                    errorExists = True
+                else:
+                    getRef = self.BOM.findall(".//Part[@PartID='{0}']".format(mat.attrib['PartID']))
+                    if len(getRef) == 0:
+                        pass
+                    elif len(getRef) > 1:
+                        print("Multiple listing for Part {} in the XML file".format(mat.attrib['PartID']))
+                        errorExists = True
+                    else:
+                        checkList.append(getRef[0])
+        print("\t"*depth, len(checkList), " materials in ", start, " against ", len(visited), " previous entries")
+        for checkMe in checkList:
+            print("\t"*(depth+1), "Checking {}".format(checkMe.attrib['PartID']))
+            newError = self.isErrorInBOM(start = checkMe.attrib['PartID'], visited = copy.copy(visited), depth = depth + 1)
+            errorExists = errorExists or newError
+        return errorExists
 
 
 
