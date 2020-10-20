@@ -184,7 +184,7 @@
 	
 	<Part PartID="8025736">
 		<Operation WC="MCH030">
-			<Material PartID="9612125" Unit="IN" Qty="1" Size="0.750" />
+			<Material PartID="9612225" Unit="IN" Qty="1" Size="0.750" />
 		</Operation>
 		<Operation WC="MCH010" />
 		<Operation WC="MCH060" />
