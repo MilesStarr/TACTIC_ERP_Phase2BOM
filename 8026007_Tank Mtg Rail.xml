@@ -8,7 +8,7 @@
 			<Material PartID="9070300-4" Unit="IN" Qty="1" Size="13.5" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="MCh050" />
+		<Operation WC="MCH050" />
 	</Part>
 	
 	<Part PartID="8033646">
@@ -16,7 +16,7 @@
 			<Material PartID="9074122-3" Unit="IN" Qty="1" Size="13.5" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="MCh050" />
+		<Operation WC="MCH050" />
 	</Part>
 	
 	<Part PartID="8025796">
@@ -24,7 +24,7 @@
 			<Material PartID="9070300-4" Unit="IN" Qty="1" Size="14" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="MCh050" />
+		<Operation WC="MCH050" />
 	</Part>
 	
 	<Part PartID="8025791">
@@ -32,7 +32,7 @@
 			<Material PartID="9074122-3" Unit="IN" Qty="1" Size="14" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="MCh050" />
+		<Operation WC="MCH050" />
 	</Part>
 	
 	<Part PartID="8026343">
@@ -40,7 +40,7 @@
 			<Material PartID="9070300-4" Unit="IN" Qty="1" Size="20.5" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="MCh050" />
+		<Operation WC="MCH050" />
 	</Part>
 	
 	<Part PartID="8025791">
@@ -48,7 +48,7 @@
 			<Material PartID="9074122-3" Unit="IN" Qty="1" Size="20.5" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="MCh050" />
+		<Operation WC="MCH050" />
 	</Part>
 	
 	<Part PartID="8027541">
@@ -56,7 +56,7 @@
 			<Material PartID="9070300-4" Unit="IN" Qty="1" Size="26.5" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="MCh050" />
+		<Operation WC="MCH050" />
 	</Part>
 	
 	<Part PartID="8027540">
@@ -64,7 +64,7 @@
 			<Material PartID="9074122-3" Unit="IN" Qty="1" Size="26.5" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="MCh050" />
+		<Operation WC="MCH050" />
 	</Part>
 	
 	<Part PartID="8026859">
@@ -72,7 +72,7 @@
 			<Material PartID="9070300-4" Unit="IN" Qty="1" Size="32.5" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="MCh050" />
+		<Operation WC="MCH050" />
 	</Part>
 	
 	<Part PartID="8026858">
@@ -80,7 +80,7 @@
 			<Material PartID="9074122-3" Unit="IN" Qty="1" Size="32.5" />
 		</Operation>
 		<Operation WC="MCH010" />
-		<Operation WC="MCh050" />
+		<Operation WC="MCH050" />
 	</Part>
 	
 	<Part PartID="8026007-0">
