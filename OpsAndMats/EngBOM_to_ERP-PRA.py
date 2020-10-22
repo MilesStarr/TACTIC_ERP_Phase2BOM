@@ -14,7 +14,7 @@ import BOM
 import pandas as pd
 from lxml import etree
 
-name = "8026007_Tank Mtg Rail"
+name = "M259A"
 
 tree = etree.parse("../" + name + ".xml")
 
