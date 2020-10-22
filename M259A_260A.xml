@@ -308,14 +308,14 @@
 		<Operation WC="MCH010">
 			<Material PartID="6332008" Unit="EA" Qty="1" />
 		</Operation>
-		<Operation PartID="MCH060" />
+		<Operation WC="MCH060" />
 	</Part>
 	
 	<Part PartID="8034770-2">
 		<Operation WC="MCH010">
 			<Material PartID="6332007" Unit="EA" Qty="1" />
 		</Operation>
-		<Operation PartID="MCH060" />
+		<Operation WC="MCH060" />	
 	</Part>
 	
 	<Part PartID="8034768">

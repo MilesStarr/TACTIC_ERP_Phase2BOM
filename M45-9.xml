@@ -27,7 +27,7 @@
 	
 	<Part PartID="8026315">
 		<Operation WC="EXT010">
-			<Material PartID="8025315-A" Unit="EA" Qty="1" />
+			<Material PartID="8026315-A" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
@@ -104,20 +104,6 @@
 		<Operation WC="MCH030" />
 		<Operation WC="MCH010" />
 		<Operation WC="MCH050" />
-	</Part>
-	
-	<Part PartID="6092007-459">
-		<Operation WC="FAB010">
-			<Material PartID="6092007" Unit="EA" Qty="1" />
-		</Operation>
-		<Operation WC="MCH060" />
-	</Part>
-	
-	<Part PartID="1702001-459">
-		<Operation WC="FAB010">
-			<Material PartID="1702001" Unit="IN" Qty="1" Size="1.625" />
-		</Operation>
-		<Operation WC="MCH060" />
 	</Part>
 	
 	<Part PartID="8025787-X">
@@ -227,7 +213,7 @@
 		</Operation>
 	</Part>	
 		
-	<Part PartID="M45-9M">
+	<Part PartID="M45-9MR">
 		<Operation WC="ASY010">
 			<Material PartID="8025787-X" Unit="EA" Qty="1" />
 			<Material PartID="8026315" Unit="EA" Qty="2" />
