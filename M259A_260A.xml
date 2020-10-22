@@ -35,6 +35,8 @@
 		<Operation WC="MCH060" />
 	</Part>
 
+<!-- already defined in M258A.xml
+
 	<Part PartID="8034688-1">
 		<Operation WC="FAB010">
 			<Material PartID="9194122-3" Unit="IN" Qty="1" Size=".625" />
@@ -67,6 +69,9 @@
 			<Material PartID="9816001" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
+
+-->
+
 	
 	<Part PartID="8034687-3">
 		<Operation WC="FAB010">
