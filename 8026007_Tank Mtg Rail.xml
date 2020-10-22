@@ -43,7 +43,7 @@
 		<Operation WC="MCh050" />
 	</Part>
 	
-	<Part PartID="8025791">
+	<Part PartID="8026342">
 		<Operation WC="FAB010">
 			<Material PartID="9074122-3" Unit="IN" Qty="1" Size="20.5" />
 		</Operation>
