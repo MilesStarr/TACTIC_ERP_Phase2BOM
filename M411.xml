@@ -127,6 +127,7 @@
 			<Material PartID="8034515-1" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-2" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8026439" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026441" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026476" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -138,6 +139,7 @@
 			<Material PartID="8034515-3" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-4" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8033565" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033566" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033564" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -149,6 +151,7 @@
 			<Material PartID="8034515-5" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-6" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8026439" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026441" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026476" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -160,6 +163,7 @@
 			<Material PartID="8034515-7" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-8" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8033565" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033566" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033564" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -171,6 +175,7 @@
 			<Material PartID="8034515-9" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-10" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8026439" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026441" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026476" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -182,6 +187,7 @@
 			<Material PartID="8034515-12" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-11" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8033565" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033566" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033564" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -193,6 +199,7 @@
 			<Material PartID="8034515-13" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-14" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8026459-2" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8026439" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026441" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026476" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -204,6 +211,7 @@
 			<Material PartID="8034515-15" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-16" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8026459-2" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8033565" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033566" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033564" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -296,6 +304,7 @@
 			<Material PartID="8026437-X" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-1" Unit="EA" Qty="2" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8026439" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026441" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026476" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -306,6 +315,7 @@
 			<Material PartID="8026437-X" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-3" Unit="EA" Qty="2" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8033565" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033566" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033564" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -316,6 +326,7 @@
 			<Material PartID="8026437-X" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-5" Unit="EA" Qty="2" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8026439" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026441" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026476" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -326,6 +337,7 @@
 			<Material PartID="8026437-X" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-7" Unit="EA" Qty="2" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8033565" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033566" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033564" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -336,6 +348,7 @@
 			<Material PartID="8026437-X" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-9" Unit="EA" Qty="2" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8026439" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026441" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026476" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -346,6 +359,7 @@
 			<Material PartID="8026437-X" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-11" Unit="EA" Qty="2" /> <!-- clean -->
 			<Material PartID="8026459-1" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8033565" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033566" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033564" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -356,6 +370,7 @@
 			<Material PartID="8026437-X" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-13" Unit="EA" Qty="2" /> <!-- clean -->
 			<Material PartID="8026459-2" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8026439" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026441" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8026476" Unit="EA" Qty="2" /> <!-- purchased -->
@@ -366,10 +381,20 @@
 			<Material PartID="8026437-X" Unit="EA" Qty="1" /> <!-- clean -->
 			<Material PartID="8034515-15" Unit="EA" Qty="2" /> <!-- clean -->
 			<Material PartID="8026459-2" Unit="EA" Qty="1" /> <!-- clean -->
+			<Material PartID="8034560" Unit="EA" Qty="1" />
 			<Material PartID="8033565" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033566" Unit="EA" Qty="2" /> <!-- purchased -->
 			<Material PartID="8033564" Unit="EA" Qty="2" /> <!-- purchased -->
 		</Operation>
+	</Part>
+
+	<Part PartID="8034560">
+		<Operation WC="FAB010">
+			<Material PartID="9331075" Unit="SF" Qty="1" Size="0.1" />  <!-- purchased, recommend buying strip material -->
+		</Operation>
+		<Operation WC="FAB020" />
+		<Operation WC="FAB030" />
+		<Operation WC="FAB040" />
 	</Part>
 
 	<Part PartID="8026449"> <!-- clean -->
