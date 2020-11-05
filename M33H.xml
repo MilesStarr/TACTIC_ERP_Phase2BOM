@@ -10,7 +10,7 @@
 		<Operation WC="MCH060" />
 	</Part>
 	
-	<Part PartID="8026973-2">
+	<Part PartID="8026973-1">
 		<Operation WC="FAB010">
 			<Material PartID="9014204-4" Unit="In" Qty="1" Size="22" />
 		</Operation>
@@ -44,6 +44,7 @@
 		</Operation>
 	</Part>
 	
+<!-- already defined in Model33M.xml
 	<Part PartID="8028312">
 		<Operation WC="FAB010">
 			<Material PartID="9190201-4" Unit="In" Qty="1" Size="2.250" />
@@ -51,7 +52,8 @@
 		<Operation WC="MCH010" />
 		<Operation WC="MCH060" />
 	</Part>
-	
+-->
+
 	<Part PartID="M33H">
 		<Operation WC="ASY010">
 			<Material PartID="5144623" Unit="EA" Qty="1" />
@@ -62,7 +64,7 @@
 			<Material PartID="5132501" Unit="EA" Qty="1" />
 			<Material PartID="5144621" Unit="EA" Qty="7" />
 			<Material PartID="6583031" Unit="EA" Qty="1" />
-			<Material PartID="3403501" Unit="EA" Qty="1" />
+			<Material PartID="5403501" Unit="EA" Qty="1" />
 			<Material PartID="5144628" Unit="EA" Qty="1" />
 			<Material PartID="5145603" Unit="EA" Qty="1" />
 			<Material PartID="5262501" Unit="EA" Qty="2" />
@@ -97,7 +99,7 @@
 			<Material PartID="3860028-1" Unit="EA" Qty="2" />
 			<Material PartID="5189201" Unit="EA" Qty="4" />
 			<Material PartID="5189301" Unit="EA" Qty="2" />
-			<Material PartID="5131003" Unit="EA" Qty="1" />
+			<Material PartID="5131003" Unit="EA" Qty="2" />
 			<Material PartID="2402414" Unit="EA" Qty="6" />
 			<Material PartID="2507201" Unit="EA" Qty="12" />
 			<Material PartID="2577201" Unit="EA" Qty="6" />
