@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Parts Group="M33H"
+	xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="BOM.xsd">
+	
+	<Part PartID="8027877">
+		<Operation WC="FAB010">
+			<Material PartID="9192200" Unit="IN" Qty="1" Size="0.500" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH050" />
+		<Operation WC="EXT010">
+			<Material PartID="8027877-A" Unit="EA" Qty="1" /> <!--8027877-A is new item to cover dial engraving costs-->
+		</Operation>
+	</Part>
+	
+	<Part PartID="8027881">
+		<Operation WC="MCH010">
+			<Material PartID="6332010" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="MCH060" />
+	</Part>
+	
+	<Part PartID="8033972">
+		<Operation WC="FAB010">
+			<Material PartID="9190220-4" Unit="IN" Qty="1" Size="4.90625" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH060" />
+		<Operation WC="EXT010">
+			<Material PartID="9816001" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8033975">
+		<Operation WC="FAB010">
+			<Material PartID="6332009" Unit="EA" Qty="1" Size="0.250" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH060" />
+	</Part>
+	
+	<Part PartID="8033973">
+		<Operation WC="FAB010">
+			<Material PartID="9190241-4" Unit="IN" Qty="1" Size="4.875" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH050" />
+		<Operation WC="EXT010">
+			<Material PartID="9816001" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8033974-1">
+		<Operation WC="FAB010">
+			<Material PartID="9092050-1" Unit="IN" Qty="1" Size="6.09375" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH030" />
+		<Operation WC="MCH060" />
+	</Part>
+	
+	<Part PartID="8033974-2">
+		<Operation WC="FAB010">
+			<Material PartID="9092050-1" Unit="IN" Qty="1" Size="6.21875" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH030" />
+		<Operation WC="MCH060" />
+	</Part>
+	
+	<Part PartID="8033976">
+		<Operation WC="MCH010">
+			<Material PartID="6092022" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="MCH060" />
+	</Part>
+	
+	<Part PartID="8027876-X">
+		<Operation WC="ASY010">
+			<Material PartID="8027877" Unit="EA" Qty="1" />
+			<Material PartID="8027881" Unit="EA" Qty="1" />
+			<Material PartID="8033972" Unit="EA" Qty="1" />
+			<Material PartID="8033975" Unit="EA" Qty="1" />
+			<Material PartID="8033973" Unit="EA" Qty="1" />
+			<Material PartID="8033369" Unit="EA" Qty="1" />
+			<Material PartID="8033976" Unit="EA" Qty="1" />
+			<Material PartID="2331702" Unit="EA" Qty="1" />
+			<Material PartID="1331404-1" Unit="EA" Qty="1" />
+			<Material PartID="1421706" Unit="EA" Qty="4" />
+			<Material PartID="1576101" Unit="EA" Qty="8" />
+			<Material PartID="1506101" Unit="EA" Qty="8" />
+			<Material PartID="1231703" Unit="EA" Qty="4" />
+			<Material PartID="1402408" Unit="EA" Qty="3" />
+			<Material PartID="1577301" Unit="EA" Qty="4" />
+			<Material PartID="1527301" Unit="EA" Qty="3" />
+			<Material PartID="1102801" Unit="EA" Qty="2" />
+			<Material PartID="1527401" Unit="EA" Qty="1" />
+			<Material PartID="1477606" Unit="EA" Qty="1" />
+			<Material PartID="1527601" Unit="EA" Qty="1" />
+			<Material PartID="3030023" Unit="EA" Qty="1" />
+			<Material PartID="3032003" Unit="EA" Qty="1" />
+			<Material PartID="6094007" Unit="EA" Qty="2" />
+			<Material PartID="6230006-1" Unit="EA" Qty="2" />
+			<Material PartID="6370006" Unit="EA" Qty="1" />
+			<Material PartID="6370023" Unit="EA" Qty="1" />
+			<Material PartID="6541015" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8027876-1">
+		<Operation WC="ASY010">
+			<Material PartID="8027876-X" Unit="EA" Qty="1" />
+			<Material PartID="8033974-1" Unit="EA" Qty="1" />
+			<Material PartID="8033971-1" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8027876-2">
+		<Operation WC="ASY010">
+			<Material PartID="8027876-X" Unit="EA" Qty="1" />
+			<Material PartID="8033974-2" Unit="EA" Qty="1" />
+			<Material PartID="8033971-2" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+
+</Parts>	
