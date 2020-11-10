@@ -48,7 +48,7 @@
 	
 	<Part PartID="8029500">
 		<Operation WC="MCH070">
-			<Material PartID="6160014-2" Unit="EA" Qty="1" />
+			<Material PartID="6160014-1" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
