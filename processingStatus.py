@@ -31,8 +31,12 @@ for xml, value in fileLog.items():
         if xmlHashIndex < excelHashIndex:
             print("{} is dirty".format(xml))
             print("TortoiseGitProc /command:diff /path {file}.xml /startrev:{excelHash} /endrev:{xmlHash}".format(file=xml, excelHash=resultLog[xml], xmlHash=value))
+            print()
+    elif xml=="": #catch the ".TacTicMasterBOM.xml" file as not to be displayed
+        pass
     else:
         print("{} has never been processed".format(xml))
+        print()
 del xml, value, xmlHashIndex, excelHashIndex
 
 input("press enter to terminate...")
