@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Parts Group="HD_Drive_Stops"
+	xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="BOM.xsd">
+	
+	<Part PartID="8026571">
+		<Operation WC="ASY010">
+			<Material PartID="8026571-U" Unit="EA" Qty="1" />
+			<Material PartID="3110006" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8028497">
+		<Operation WC="FAB010">
+			<Material PartID="3031004" Unit="EA" Qty="1" />
+		</Operation>
+		<Operation WC="MCH060" />
+	</Part>
+	
+	<Part PartID="8027815">
+		<Operation WC="FAB010">
+			<Material PartID="9073102" Unit="IN" Qty="1" Size="1.875" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH060" />
+		<Operation WC="FAB070">
+			<Material PartID="1507401" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8027814">
+		<Operation WC="FAB010">
+			<Material PartID="3704301" Unit="IN" Qty="1" Size="9.625" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH060" />
+		<Operation WC="EXT010">
+			<Material PartID="9816011" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8026572-X">
+		<Operation WC="ASY010">
+			<Material PartID="2034301" Unit="EA" Qty="1" />
+			<Material PartID="8025044-21" Unit="EA" Qty="1" />
+			<Material PartID="8026571" Unit="EA" Qty="1" />
+			<Material PartID="8028497" Unit="EA" Qty="2" />
+			<Material PartID="2577601" Unit="EA" Qty="3" />
+			<Material PartID="2033501" Unit="EA" Qty="3" />
+			<Material PartID="2517601" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8026572-1">
+		<Operation WC="ASY010">
+			<Material PartID="8025044-8" Unit="EA" Qty="1" />
+			<Material PartID="8026572-X" Unit="EA" Qty="1" />
+			<Material PartID="6680002" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8026572-2">
+		<Operation WC="ASY010">
+			<Material PartID="8025044-15" Unit="EA" Qty="1" />
+			<Material PartID="8026572-X" Unit="EA" Qty="1" />
+			<Material PartID="6680002" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8027819">
+		<Operation WC="ASY010">
+			<Material PartID="8026572-X" Unit="EA" Qty="1" />
+			<Material PartID="6680004" Unit="EA" Qty="1" />
+			<Material PartID="6741009" Unit="EA" Qty="1" />
+			<Material PartID="6541011" Unit="EA" Qty="1" />
+			<Material PartID="8027815" Unit="EA" Qty="1" />
+			<Material PartID="8027814" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+</Parts>	
