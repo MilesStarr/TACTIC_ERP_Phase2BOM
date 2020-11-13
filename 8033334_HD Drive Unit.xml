@@ -128,9 +128,8 @@
 		</Operation>
 	</Part>
 	
-	<Part PartID="8033334">
+	<Part PartID="8033334-X">
 		<Operation WC="ASY010">
-			<Material PartID="8927876" Unit="EA" Qty="1" />
 			<Material PartID="1210902" Unit="EA" Qty="2" />
 			<Material PartID="1575501" Unit="EA" Qty="2" />
 			<Material PartID="8025103" Unit="EA" Qty="1" />
@@ -155,4 +154,19 @@
 			<Material PartID="1507401" Unit="EA" Qty="2" />
 		</Operation>
 	</Part>
+	
+	<Part PartID="8033334-1">
+		<Operation WC="ASY010">
+			<Material partID="8033334-X" Unit="EA" Qty="1" />
+			<Material PartID="8027876-1" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
+	<Part PartID="8033334-2">
+		<Operation WC="ASY010">
+			<Material partID="8033334-X" Unit="EA" Qty="1" />
+			<Material PartID="8027876-2" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
+	
 </Parts>	
