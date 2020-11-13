@@ -107,16 +107,16 @@
 		</Operation>
 	</Part>
 	
-	<Part PartID="6090019">
+	<Part PartID="6140094">
 		<Operation WC="EXT010">
-			<Material PartID="6090019-U" Unit="EA" Qty="1" />
+			<Material PartID="6140094-U" Unit="EA" Qty="1" />
 			<Material PartID="9816011" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
-	<Part PartID="6140094">
+	<Part PartID="6620009">
 		<Operation WC="EXT010">
-			<Material PartID="6140094-U" Unit="EA" Qty="1" />
+			<Material PartID="6620009-U" Unit="EA" Qty="1" />
 			<Material PartID="9816011" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
