@@ -14,7 +14,7 @@ import BOM
 import pandas as pd
 from lxml import etree
 
-name = "8033334_HD Drive Unit"
+name = "HD_Drive_Stops"
 
 tree = etree.parse("../" + name + ".xml")
 

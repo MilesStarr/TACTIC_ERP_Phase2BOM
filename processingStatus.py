@@ -29,14 +29,15 @@ for xml, value in fileLog.items():
         xmlHashIndex = commitOrder.index(value)
         excelHashIndex = commitOrder.index(resultLog[xml])
         if xmlHashIndex < excelHashIndex:
-            print("{} is dirty".format(xml))
-            print("TortoiseGitProc /command:diff /path {file}.xml /startrev:{excelHash} /endrev:{xmlHash}".format(file=xml, excelHash=resultLog[xml], xmlHash=value))
             print()
+            print('"{}" is dirty'.format(xml))
+            print('TortoiseGitProc /command:diff /path "{file}.xml" /startrev:{excelHash} /endrev:{xmlHash}'.format(file=xml, excelHash=resultLog[xml], xmlHash=value))
     elif xml=="": #catch the ".TacTicMasterBOM.xml" file as not to be displayed
         pass
     else:
-        print("{} has never been processed".format(xml))
         print()
+        print('"{}" has never been processed'.format(xml))
 del xml, value, xmlHashIndex, excelHashIndex
 
+print()
 input("press enter to terminate...")

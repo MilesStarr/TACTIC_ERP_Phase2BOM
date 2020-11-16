@@ -23,7 +23,7 @@
 	
 	<Part PartID="8033972">
 		<Operation WC="FAB010">
-			<Material PartID="9190220-4" Unit="IN" Qty="1" Size="4.90625" />
+			<Material PartID="9190240-4" Unit="IN" Qty="1" Size="4.90625" />
 		</Operation>
 		<Operation WC="MCH010" />
 		<Operation WC="MCH060" />
@@ -68,13 +68,15 @@
 		<Operation WC="MCH030" />
 		<Operation WC="MCH060" />
 	</Part>
-	
+
+<!--	Defined in Model76E.xml
 	<Part PartID="8033976">
 		<Operation WC="MCH010">
 			<Material PartID="6092022" Unit="EA" Qty="1" />
 		</Operation>
 		<Operation WC="MCH060" />
 	</Part>
+-->
 	
 	<Part PartID="8027876-X">
 		<Operation WC="ASY010">
@@ -101,7 +103,7 @@
 			<Material PartID="3030023" Unit="EA" Qty="1" />
 			<Material PartID="3032003" Unit="EA" Qty="1" />
 			<Material PartID="6094007" Unit="EA" Qty="2" />
-			<Material PartID="6230006-1" Unit="EA" Qty="2" />
+			<Material PartID="6230006" Unit="EA" Qty="2" />
 			<Material PartID="6370006" Unit="EA" Qty="1" />
 			<Material PartID="6370023" Unit="EA" Qty="1" />
 			<Material PartID="6541015" Unit="EA" Qty="1" />
