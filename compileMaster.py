@@ -17,7 +17,7 @@ def check(testPN, partSet):
     return hits
 
 #add new files here to validate that parts are not already defined in the master
-files = ["Model76FG_Motor.xml"]
+files = ["M600H.xml"]
 
 masterTree = etree.parse(".TacTicMasterBOM.xml")
 masterRoot = masterTree.getroot()
