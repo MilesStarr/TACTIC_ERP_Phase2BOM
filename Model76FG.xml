@@ -885,26 +885,26 @@
 <!-- start back belt guards -->
 	<Part PartID="8033018-1">  <!-- clean -->
 		<Operation WC="FIN010">
-			<Part PartID="8033018-1U" Unit="EA" Qty="1" />
+			<Material PartID="8033018-1U" Unit="EA" Qty="1" />
 		</Operation>
 		<Operation WC="FIN020">
-			<Part PartID="9812002" Unit="PT" Qty="1" Size="0.25" />
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.25" />
 		</Operation>
 	</Part>
 	<Part PartID="8033018-2">  <!-- clean -->
 		<Operation WC="FIN010">
-			<Part PartID="8033018-2U" Unit="EA" Qty="1" />
+			<Material PartID="8033018-2U" Unit="EA" Qty="1" />
 		</Operation>
 		<Operation WC="FIN020">
-			<Part PartID="9812002" Unit="PT" Qty="1" Size="0.25" />
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.25" />
 		</Operation>
 	</Part>
 	<Part PartID="8033018-3">  <!-- clean -->
 		<Operation WC="FIN010">
-			<Part PartID="8033018-3U" Unit="EA" Qty="1" />
+			<Material PartID="8033018-3U" Unit="EA" Qty="1" />
 		</Operation>
 		<Operation WC="FIN020">
-			<Part PartID="9812002" Unit="PT" Qty="1" Size="0.25" />
+			<Material PartID="9812002" Unit="PT" Qty="1" Size="0.25" />
 		</Operation>
 	</Part>
 <!-- end back belt guards -->

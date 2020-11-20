@@ -43,15 +43,17 @@
 			<Material PartID="8033976" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
-	
+
+<!-- Already defined in Model76E
 	<Part PartID="8033976">
 		<Operation WC="MCH030">
 			<Material PartID="6092022" Unit="EA" Qty="1" />
 		</Operation>
 		<Operation WC="MCH060" />
 	</Part>
+-->
 	
-	<Part PartID="8026574">
+	<Part PartID="8026574">  <!-- made phantom by EC -->
 		<Operation WC="ASY010">
 			<Material PartID="6620009" Unit="EA" Qty="1" />
 			<Material PartID="6140094" Unit="EA" Qty="1" />
@@ -59,8 +61,8 @@
 			<Material PartID="1422008" Unit="EA" Qty="4" />
 			<Material PartID="1577201" Unit="EA" Qty="4" />
 			<Material PartID="2332803" Unit="EA" Qty="2" />
-			<Material PartID="6460040-U" Unit="IN" Qty="1" Size="1.500" />
-			<Material PartID="6460040-U" Unit="IN" Qty="1" Size="2.500"/>
+			<Material PartID="6460080-U" Unit="IN" Qty="1" Size="1.500" />
+			<Material PartID="6460080-U" Unit="IN" Qty="1" Size="2.500"/>
 		</Operation>
 	</Part>
 	
@@ -72,7 +74,7 @@
 		<Operation WC="MCH050" />
 	</Part>
 	
-	<Part PartID="803330-A">
+	<Part PartID="8033330-A">
 		<Operation WC="FAB090">
 			<Material PartID="6741022" Unit="EA" Qty="1" />
 		</Operation>
@@ -91,7 +93,7 @@
 			<Material PartID="8033329" Unit="EA" Qty="1" />
 			<Material PartID="8033317" Unit="EA" Qty="1" />
 			<Material PartID="8033327" Unit="EA" Qty="1" />
-			<Material PartID="803330-A" Unit="EA" Qty="1" />
+			<Material PartID="8033330-A" Unit="EA" Qty="1" />
 			<Material PartID="8026600" Unit="EA" Qty="2" />
 			<Material PartID="1477202" Unit="EA" Qty="1" />
 			<Material PartID="3030019" Unit="EA" Qty="4" />
@@ -157,14 +159,14 @@
 	
 	<Part PartID="8033334-1">
 		<Operation WC="ASY010">
-			<Material partID="8033334-X" Unit="EA" Qty="1" />
+			<Material PartID="8033334-X" Unit="EA" Qty="1" />
 			<Material PartID="8027876-1" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
 	<Part PartID="8033334-2">
 		<Operation WC="ASY010">
-			<Material partID="8033334-X" Unit="EA" Qty="1" />
+			<Material PartID="8033334-X" Unit="EA" Qty="1" />
 			<Material PartID="8027876-2" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
