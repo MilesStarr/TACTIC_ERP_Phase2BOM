@@ -17,7 +17,7 @@ def check(testPN, partSet):
     return hits
 
 #add new files here to validate that parts are not already defined in the master
-files = ["M600H.xml"]
+files = ["HD_Storage_Racks.xml"]
 
 masterTree = etree.parse(".TacTicMasterBOM.xml")
 masterRoot = masterTree.getroot()
@@ -40,3 +40,10 @@ for part in allParts:
 
 # Master Build Order:
 # files = ["8025043-1.xml", "8025044.xml", "8025737-X.xml", "8026007_Tank Mtg Rail.xml", "8027003_HD Safety Whl Ass'y.xml", "8027098.xml", "8033334_HD Drive Unit.xml", "8034919.xml", "C27876-X_HD Prec Angle Adj.xml", "HD_Drive_Stops.xml", "Hold down ass'y_8028444-X.xml", "M105-X.xml", "M258A.xml", "M259A_260A.xml", "M265_266.xml", "M33H.xml", "M411.xml", "M45-9.xml", "M900.xml", "Model148.xml", "Model28.xml", "Model33M.xml", "Model40.xml", "Model76E.xml", "Model76E_Motor.xml", "Model76FG.xml", "Model83.xml", "Prewetter Ass'y_8027220.xml", "Safety Whl Ass'y_8026015-X.xml", "ShaftGuards_8026139.xml", "Tanks.xml"]
+#files = ["M600H.xml"]
+#files = ["8034211_ValveStation.xml"]
+#files = ["HD_Storage_Racks.xml"]
+
+
+
+

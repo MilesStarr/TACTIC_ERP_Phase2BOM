@@ -76,14 +76,12 @@
 		<Operation WC="FAB010">
 			<Material PartID="9030240-3" Unit="IN" Qty="1" Size="6"/>
 		</Operation>
-		<Operation WC="FAB020"/>
-		<Operation WC="FAB030"/>
 		<Operation WC="FAB040"/>
 		<Operation WC="FAB070">
 			<Material PartID="6960011" Unit="EA" Qty="1"/>
 		</Operation>
 		<Operation WC="EXT010">
-			<Material PartID="9816001" Unit="EA" Qty="1"/>
+			<Material PartID="9816011" Unit="EA" Qty="1"/>
 		</Operation>
 	</Part>
 	
