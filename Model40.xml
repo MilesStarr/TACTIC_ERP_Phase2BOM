@@ -548,7 +548,7 @@
 	</Part>
 	<Part PartID="8025141-2">
 		<Operation WC="FAB010">
-			<Material PartID="9011983" Unit="IN" Qty="1" Size="26.5"/>
+			<Material PartID="9010980-187" Unit="IN" Qty="1" Size="26.5"/>
 		</Operation>
 		<Operation WC="FAB020"/>
 		<Operation WC="FAB030"/>
@@ -560,7 +560,7 @@
 	</Part>
 	<Part PartID="8025141-3">
 		<Operation WC="FAB010">
-			<Material PartID="9011983" Unit="IN" Qty="1" Size="26.5"/>
+			<Material PartID="9010980-187" Unit="IN" Qty="1" Size="26.5"/>
 		</Operation>
 		<Operation WC="FAB020"/>
 		<Operation WC="FAB030"/>
@@ -572,7 +572,7 @@
 	</Part>
 	<Part PartID="8025141-4">
 		<Operation WC="FAB010">
-			<Material PartID="9011983" Unit="IN" Qty="1" Size="26.5"/>
+			<Material PartID="9010980-187" Unit="IN" Qty="1" Size="26.5"/>
 		</Operation>
 		<Operation WC="FAB020"/>
 		<Operation WC="FAB030"/>

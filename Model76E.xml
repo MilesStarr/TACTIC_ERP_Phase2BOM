@@ -616,7 +616,7 @@
 <!-- Model 94 Air Valve Mounting Panel -->
 	<Part PartID="8026893">  <!-- clean -->
 		<Operation WC="FAB010">
-			<Material PartID="9011803" Unit="IN" Qty="1" Size="21.875" />
+			<Material PartID="9010800-187" Unit="IN" Qty="1" Size="21.875" />
 		</Operation>
 		<Operation WC="FAB020" />
 		<Operation WC="FAB030" />
@@ -629,7 +629,7 @@
 
 	<Part PartID="8026902">  <!-- clean -->
 		<Operation WC="FAB010">
-			<Material PartID="9011803" Unit="IN" Qty="1" Size="28.375" />
+			<Material PartID="9010800-187" Unit="IN" Qty="1" Size="28.375" />
 		</Operation>
 		<Operation WC="FAB020" />
 		<Operation WC="FAB030" />
@@ -642,7 +642,7 @@
 
 	<Part PartID="8027158">  <!-- clean -->
 		<Operation WC="FAB010">
-			<Material PartID="9011803" Unit="IN" Qty="1" Size="34.375" />
+			<Material PartID="9010800-187" Unit="IN" Qty="1" Size="34.375" />
 		</Operation>
 		<Operation WC="FAB020" />
 		<Operation WC="FAB030" />
@@ -655,7 +655,7 @@
 
 	<Part PartID="8028282">  <!-- clean -->
 		<Operation WC="FAB010">
-			<Material PartID="9011803" Unit="IN" Qty="1" Size="40.375" />
+			<Material PartID="9010800-187" Unit="IN" Qty="1" Size="40.375" />
 		</Operation>
 		<Operation WC="FAB020" />
 		<Operation WC="FAB030" />
@@ -1370,7 +1370,7 @@
 
 	<Part PartID="8033619">  <!-- clean -->
 		<Operation WC="FAB010">
-			<Material PartID="9011243" Unit="IN" Qty="1" Size="1" />
+			<Material PartID="9010240-187" Unit="IN" Qty="1" Size="1" />
 		</Operation>
 		<Operation WC="FAB020" />
 		<Operation WC="FAB030" />
@@ -1647,7 +1647,7 @@
 
 	<Part PartID="8033316-1">  <!-- clean -->
 		<Operation WC="FAB010">
-			<Material PartID="9070050-316" Unit="IN" Qty="1" Size="3.75" />
+			<Material PartID="9070050-187" Unit="IN" Qty="1" Size="3.75" />
 		</Operation>
 		<Operation WC="FAB020" />
 		<Operation WC="FAB030" />
@@ -1656,7 +1656,7 @@
 	</Part>
 	<Part PartID="8033316-2">  <!-- clean -->
 		<Operation WC="FAB010">
-			<Material PartID="9070050-316" Unit="IN" Qty="1" Size="3.75" />
+			<Material PartID="9070050-187" Unit="IN" Qty="1" Size="3.75" />
 		</Operation>
 		<Operation WC="FAB020" />
 		<Operation WC="FAB030" />

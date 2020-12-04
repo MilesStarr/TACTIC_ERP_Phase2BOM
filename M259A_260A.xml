@@ -13,7 +13,7 @@
 	
 	<Part PartID="8034713-1B">
 		<Operation WC="FAB010">
-			<Material PartID="9070140-316" Unit="IN" Qty="1" Size="5.250" />
+			<Material PartID="9070140-187" Unit="IN" Qty="1" Size="5.250" />
 		</Operation>
 		<Operation WC="MCH010" />
 		<Operation WC="MCH060" />
@@ -29,7 +29,7 @@
 	
 	<Part PartID="8034713-2B">
 		<Operation WC="FAB010">
-			<Material PartID="9070140-316" Unit="IN" Qty="1" Size="5.250" />
+			<Material PartID="9070140-187" Unit="IN" Qty="1" Size="5.250" />
 		</Operation>
 		<Operation WC="MCH010" />
 		<Operation WC="MCH060" />
