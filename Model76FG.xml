@@ -189,7 +189,7 @@
 
 	<Part PartID="8026958">  <!-- clean -->
 		<Operation WC="FAB010">
-			<Material PartID="9011003" Unit="SF" Qty="1" Size="1.9" />
+			<Material PartID="9011187" Unit="SF" Qty="1" Size="1.9" />
 		</Operation>
 		<Operation WC="FAB040" />
 		<Operation WC="FIN010" />

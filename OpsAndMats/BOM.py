@@ -160,7 +160,7 @@ class BOM:
                 else:
                     recommendation['Item'] = itemSearch
                     recommendation['DESCRIPTION'] = "Failed Drawing Lookup"
-                recommendation['Phantom Flag'] = 1 if itemIsDWG[2] == "-X" else 0
+                recommendation['Phantom Flag'] = 1 if itemIsDWG[2][:2] == "-X" else 0
                 recommendation['Product Code'] = "TT-MfgStep" if itemIsMfg is not None else "TT-NonSale"
             elif itemIsHardware:
                 hardwareInfo = self.fetchHardware(itemIsHardware)
@@ -244,7 +244,7 @@ class BOM:
                         '67': "#24", '70': "1/8", '71': "3/16", '72': "¼", '73': "5/16",
                         '74': "3/8", '75': "7/16", '76': "½", '77': "9/16", '78': "5/8",
                         '79': "11/16", '80': "¾", '81': "13/16", '82': "7/8", '83': "15/16",
-                        '84': "7/8", '85': "15/16", '86': "1 to 1 7/8‡", '87': "2 to 2 7/8‡",
+                        '84': "1 to 1 7/8‡", '85': "2 to 2 7/8‡",
                         '90': "< 3mm", '91': "M3 - M9‡", '92': "M10 - M19‡"}
         if hardwareMatchResult[1] in HardwareType.keys():
             hType = HardwareType[hardwareMatchResult[1]]

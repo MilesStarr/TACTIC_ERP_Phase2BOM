@@ -68,7 +68,7 @@
 	
 	<Part PartID="8033317">
 		<Operation WC="FAB010">
-			<Material PartID="9070060-316" Unit="IN" Qty="1" Size="5.000" />
+			<Material PartID="9070060-187" Unit="IN" Qty="1" Size="5.000" />
 		</Operation>
 		<Operation WC="MCH010" />
 		<Operation WC="MCH050" />
