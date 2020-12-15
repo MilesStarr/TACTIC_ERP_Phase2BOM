@@ -9,12 +9,12 @@
 			<Material PartID="8028492" Unit="EA" Qty="8" />  <!-- clean -->
 			<Material PartID="8026958" Unit="EA" Qty="1" />  <!-- clean -->
 			<Material PartID="8026525" Unit="EA" Qty="2" />  <!-- clean -->
-			<Material PartID="8033034" Unit="EA" Qty="1" />  <!-- clean -->
+			<!-- <Material PartID="8033034" Unit="EA" Qty="1" /> move to 76F/G-18 only --><!-- clean -->
 			<Material PartID="8027793" Unit="EA" Qty="1" />  <!-- clean -->
 			<Material PartID="8026544" Unit="EA" Qty="8" />  <!-- clean -->
 			<Material PartID="8010002" Unit="EA" Qty="1" />  <!-- purchased -->
 			<Material PartID="8034696" Unit="EA" Qty="2" />  <!-- exists -->
-			<Material PartID="8033334" Unit="EA" Qty="4" />  <!-- will exist in drive head file since it is also used in M204H and M205H -->
+			<Material PartID="8033334-2" Unit="EA" Qty="4" />  <!-- will exist in drive head file since it is also used in M204H and M205H -->
 			<Material PartID="8026531-1" Unit="EA" Qty="1" />  <!-- clean -->
 			<Material PartID="8026531-2" Unit="EA" Qty="2" />  <!-- clean -->
 			<Material PartID="8026531-3" Unit="EA" Qty="1" />  <!-- clean -->
@@ -66,10 +66,10 @@
 			<Material PartID="1577401" Unit="EA" Qty="16" />  <!-- exists -->
 			<Material PartID="6581024-7" Unit="EA" Qty="8" />  <!-- exists -->
 			<Material PartID="2402008" Unit="EA" Qty="24" />  <!-- exists -->
-			<Material PartID="2507201" Unit="EA" Qty="73" />  <!-- exists -->
-			<Material PartID="2577201" Unit="EA" Qty="57" />  <!-- exists -->
-			<Material PartID="2032001" Unit="EA" Qty="25" />  <!-- exists -->
-			<Material PartID="2402816" Unit="EA" Qty="32" />  <!-- exists -->
+			<Material PartID="2507201" Unit="EA" Qty="74" />  <!-- exists -->
+			<Material PartID="2577201" Unit="EA" Qty="58" />  <!-- exists -->
+			<Material PartID="2032001" Unit="EA" Qty="26" />  <!-- exists -->
+			<Material PartID="2402816" Unit="EA" Qty="6" />  <!-- exists -->
 			<Material PartID="2507401" Unit="EA" Qty="124" />  <!-- exists -->
 			<Material PartID="2577401" Unit="EA" Qty="68" />  <!-- exists -->
 			<Material PartID="2032801" Unit="EA" Qty="68" />  <!-- exists -->
@@ -91,6 +91,7 @@
 			<Material PartID="2403514" Unit="EA" Qty="16" />  <!-- exists -->
 			<Material PartID="2402822" Unit="EA" Qty="16" />  <!-- exists -->
 			<Material PartID="6370010-1" Unit="EA" Qty="4" /> <!-- purchased -->
+			<Material PartID="2402812" Unit="EA" Qty="26" /> <!-- purchased -->
 		</Operation>
 	</Part>
 
