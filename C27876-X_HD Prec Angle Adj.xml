@@ -85,7 +85,7 @@
 			<Material PartID="8033972" Unit="EA" Qty="1" />
 			<Material PartID="8033975" Unit="EA" Qty="1" />
 			<Material PartID="8033973" Unit="EA" Qty="1" />
-			<Material PartID="8033369" Unit="EA" Qty="1" />
+			<!-- <Material PartID="8033369" Unit="EA" Qty="1" /> Defined on 8033334-X -->
 			<Material PartID="8033976" Unit="EA" Qty="1" />
 			<Material PartID="2331702" Unit="EA" Qty="1" />
 			<Material PartID="1331404-1" Unit="EA" Qty="1" />
@@ -94,8 +94,8 @@
 			<Material PartID="1506101" Unit="EA" Qty="8" />
 			<Material PartID="1231703" Unit="EA" Qty="4" />
 			<Material PartID="1402408" Unit="EA" Qty="3" />
-			<Material PartID="1577301" Unit="EA" Qty="4" />
-			<Material PartID="1527301" Unit="EA" Qty="3" />
+			<Material PartID="1577301" Unit="EA" Qty="3" />
+			<Material PartID="1527301" Unit="EA" Qty="4" />
 			<Material PartID="1102801" Unit="EA" Qty="2" />
 			<Material PartID="1527401" Unit="EA" Qty="1" />
 			<Material PartID="1477606" Unit="EA" Qty="1" />
@@ -106,7 +106,7 @@
 			<Material PartID="6230006" Unit="EA" Qty="2" />
 			<Material PartID="6370006" Unit="EA" Qty="1" />
 			<Material PartID="6370023" Unit="EA" Qty="1" />
-			<Material PartID="6541015" Unit="EA" Qty="1" />
+			<Material PartID="6541003" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
 	
