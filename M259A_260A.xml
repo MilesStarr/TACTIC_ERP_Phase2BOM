@@ -144,15 +144,18 @@
 		</Operation>
 	</Part>
 	
-	<Part PartID="8034880-1B">
+	<Part PartID="8034880-1">
 		<Operation WC="EXT010">
 			<Material PartID="8034864" Unit="EA" Qty="1" />
 			<Material PartID="8034880-1A" Unit="EA" Qty="1" />
+			<Material PartID="6090027" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
-	
-	<Part PartID="8034880-1">
-		<Operation WC="ASY010">
+
+	<Part PartID="8034880-2">
+		<Operation WC="EXT010">
+			<Material PartID="8034864" Unit="EA" Qty="1" />
+			<Material PartID="8034880-2A" Unit="EA" Qty="1" />
 			<Material PartID="6090027" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
