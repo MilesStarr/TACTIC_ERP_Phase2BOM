@@ -106,7 +106,7 @@
 	</Part>
 	
 	<Part PartID="8025319-17">
-		<Operation WC="MCH010">
+		<Operation WC="FAB010">
 			<Material PartID="1702001" Unit="IN" Qty="1" Size="1.5" />
 		</Operation>
 		<Operation WC="MCH060" />

@@ -196,6 +196,7 @@
 		<Operation WC="FAB010">
 			<Material PartID="1704401" Unit="IN" Qty="1" Size="19.5" />
 		</Operation>
+		<Operation WC="MCH060" />
 	</Part>
 
 	<Part PartID="8029067">  <!-- clean -->
