@@ -742,7 +742,7 @@
 		<Operation WC="ELC020">
 			<Material PartID="8027910" Unit="EA" Qty="1"/>
 			<Material PartID="7163320-1" Unit="EA" Qty="2"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="3" Size="12"/>
+			<Material PartID="7195035-1" Unit="P" Qty="3" Size="12"/>
 			<Material PartID="7195012" Unit="EA" Qty="3"/>
 			<Material PartID="7647002-7" Unit="EA" Qty="1"/>
 			<Material PartID="7195010-1" Unit="EA" Qty="36"/>
@@ -753,7 +753,7 @@
 		<Operation WC="ELC020">
 			<Material PartID="8027910" Unit="EA" Qty="1"/>
 			<Material PartID="7163320-1" Unit="EA" Qty="4"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="3" Size="12"/>
+			<Material PartID="7195035-1" Unit="P" Qty="3" Size="12"/>
 			<Material PartID="7195012" Unit="EA" Qty="3"/>
 			<Material PartID="7647002-7" Unit="EA" Qty="1"/>
 			<Material PartID="7195010-1" Unit="EA" Qty="36"/>
@@ -764,7 +764,7 @@
 		<Operation WC="ELC020">
 			<Material PartID="8027910" Unit="EA" Qty="1"/>
 			<Material PartID="7163320-1" Unit="EA" Qty="6"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="3" Size="12"/>
+			<Material PartID="7195035-1" Unit="P" Qty="3" Size="12"/>
 			<Material PartID="7195012" Unit="EA" Qty="3"/>
 			<Material PartID="7647002-7" Unit="EA" Qty="1"/>
 			<Material PartID="7195010-1" Unit="EA" Qty="36"/>
@@ -777,7 +777,7 @@
 		<Operation WC="ELC020">
 			<Material PartID="8027910" Unit="EA" Qty="1"/>
 			<Material PartID="7163320-1" Unit="EA" Qty="8"/>
-			<Material PartID="7195035-1" Unit="EA" Qty="3" Size="12"/>
+			<Material PartID="7195035-1" Unit="P" Qty="3" Size="12"/>
 			<Material PartID="7195012" Unit="EA" Qty="3"/>
 			<Material PartID="7647002-7" Unit="EA" Qty="1"/>
 			<Material PartID="7195010-1" Unit="EA" Qty="36"/>

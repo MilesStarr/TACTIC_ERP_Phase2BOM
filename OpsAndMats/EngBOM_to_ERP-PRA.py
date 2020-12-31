@@ -14,7 +14,7 @@ import BOM
 import pandas as pd
 from lxml import etree
 
-name = "Model76E"
+name = ".TacTicMasterBOM"
 
 tree = etree.parse("../" + name + ".xml")
 

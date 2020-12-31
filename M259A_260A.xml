@@ -240,7 +240,7 @@
 	
 	<Part PartID="8034763-1">
 		<Operation WC="FAB010">
-			<Material PartID="9190200-3" Unit="In" Qty="1" Size="1.750" />
+			<Material PartID="9190200-3" Unit="IN" Qty="1" Size="1.750" />
 		</Operation>
 		<Operation WC="MCH010" />
 		<Operation WC="MCH060" />
@@ -251,7 +251,7 @@
 	
 	<Part PartID="8034763-2">
 		<Operation WC="FAB010">
-			<Material PartID="9190200-3" Unit="In" Qty="1" Size="1.750" />
+			<Material PartID="9190200-3" Unit="IN" Qty="1" Size="1.750" />
 		</Operation>
 		<Operation WC="MCH010" />
 		<Operation WC="MCH060" />
@@ -262,7 +262,7 @@
 	
 	<Part PartID="8034764">
 		<Operation WC="FAB010">
-			<Material PartID="9190200-3" Unit="In" Qty="1" Size="1.125" />
+			<Material PartID="9190200-3" Unit="IN" Qty="1" Size="1.125" />
 		</Operation>
 		<Operation WC="MCH010" />
 		<Operation WC="MCH060" />
@@ -273,7 +273,7 @@
 	
 	<Part PartID="8034765">
 		<Operation WC="FAB010">
-			<Material PartID="9190120-6" Unit="In" Qty="1" Size="1.375" />
+			<Material PartID="9190120-6" Unit="IN" Qty="1" Size="1.375" />
 		</Operation>
 		<Operation WC="MCH010" />
 		<Operation WC="MCH060" />

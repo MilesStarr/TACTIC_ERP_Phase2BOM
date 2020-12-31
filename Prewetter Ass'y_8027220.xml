@@ -73,7 +73,7 @@
 			<Material PartID="1402404" Unit="EA" Qty="2" />
 			<Material PartID="1577301" Unit="EA" Qty="2" />
 			<Material PartID="1527302" Unit="EA" Qty="2" />
-			<Material PartID="9733001" Unit="G" Qty="1" Size="5" />
+			<Material PartID="9733001" Unit="ml" Qty="1" Size="5" />
 			<Material PartID="1577201" Unit="EA" Qty="1" />
 			<Material PartID="1537201" Unit="EA" Qty="1" />
 			<Material PartID="5424201" Unit="IN" Qty="1" Size="48" />
