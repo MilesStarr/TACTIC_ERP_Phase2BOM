@@ -3680,12 +3680,104 @@
 		</Operation>
 	</Part>
 
+	<Part PartID="8026460">
+		<Operation WC="FAB010">
+			<Material PartID="9130121" Unit="IN" Qty="1" Size="2.865" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="EXT010">
+			<Material PartID="9816101" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
 
+	<Part PartID="8026461">
+		<Operation WC="FAB010">
+			<Material PartID="9130100-4" Unit="IN" Qty="1" Size="1.75" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="EXT010">
+			<Material PartID="9816101" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
 
+	<Part PartID="8026462">
+		<Operation WC="FAB010">
+			<Material PartID="9092038-1" Unit="IN" Qty="1" Size="1.375" />
+		</Operation>
+		<Operation WC="MCH010" />
+	</Part>
 
+	<Part PartID="8026464">
+		<Operation WC="FAB010">
+			<Material PartID="9070120-4" Unit="IN" Qty="1" Size="7" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH060" />
+	</Part>
 
+	<Part PartID="8026465">
+		<Operation WC="FAB010">
+			<Material PartID="9074102-3" Unit="IN" Qty="1" Size="5" />
+		</Operation>
+		<Operation WC="MCH010" />
+	</Part>
 
+	<Part PartID="8026466">
+		<Operation WC="FAB010">
+			<Material PartID="9130240-4" Unit="IN" Qty="1" Size="3.9375" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="EXT010">
+			<Material PartID="9816101" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
 
+	<Part PartID="8026467">
+		<Operation WC="FAB010">
+			<Material PartID="9092050-1" Unit="IN" Qty="1" Size="3.9375" />
+		</Operation>
+		<Operation WC="MCH010" />
+	</Part>
 
+	<Part PartID="8026468">
+		<Operation WC="FAB010">
+			<Material PartID="9092050-1" Unit="IN" Qty="1" Size="3.25" />
+		</Operation>
+		<Operation WC="MCH010" />
+	</Part>
+
+	<Part PartID="8026469">
+		<Operation WC="FAB010">
+			<Material PartID="9070200-2" Unit="IN" Qty="1" Size="5" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH060" />
+	</Part>
+
+	<Part PartID="8026470-1">
+		<Operation WC="FAB010">
+			<Material PartID="9074245-4" Unit="IN" Qty="1" Size="3.25" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH060" />
+	</Part>
+
+	<Part PartID="8026470-2">
+		<Operation WC="FAB010">
+			<Material PartID="9070500-2" Unit="IN" Qty="1" Size="4.1875" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="MCH060" />
+	</Part>
+
+	<Part PartID="8026625">
+		<Operation WC="FAB010">
+			<Material PartID="9130200-4" Unit="IN" Qty="1" Size="3.9375" />
+		</Operation>
+		<Operation WC="MCH010" />
+		<Operation WC="EXT010">
+			<Material PartID="9816101" Unit="EA" Qty="1" />
+		</Operation>
+	</Part>
 
 </Parts>

@@ -14,7 +14,7 @@ import BOM
 import pandas as pd
 from lxml import etree
 
-name = ".TacTicMasterBOM"
+name = "8025794_Prec Angle Adj."
 
 tree = etree.parse("../" + name + ".xml")
 

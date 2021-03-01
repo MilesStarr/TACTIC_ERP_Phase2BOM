@@ -5,7 +5,7 @@
 	
 	<Part PartID="8025795">
 		<Operation WC="MCH010">
-			<Material PartID="9192160" Unit="IN" Qty="1" Size=".375" />
+			<Material PartID="9192150" Unit="IN" Qty="1" Size=".375" />
 		</Operation>
 		<Operation WC="MCH030" />
 		<Operation WC="MCH060" />
@@ -22,7 +22,7 @@
 	
 	<Part PartID="8033459-1">
 		<Operation WC="MCH010">
-			<Material PartID="919022-3" Unit="IN" Qty="1" Size="4.000" />
+			<Material PartID="9190200-3" Unit="IN" Qty="1" Size="4.000" />
 		</Operation>
 		<Operation WC="MCH050" />
 		<Operation WC="EXT010">
@@ -32,7 +32,7 @@
 	
 	<Part PartID="8033459-2">
 		<Operation WC="MCH010">
-			<Material PartID="919022-3" Unit="IN" Qty="1" Size="4.000" />
+			<Material PartID="9190200-3" Unit="IN" Qty="1" Size="4.000" />
 		</Operation>
 		<Operation WC="MCH050" />
 		<Operation WC="EXT010">
@@ -51,7 +51,7 @@
 		<Operation WC="MCH010">
 			<Material PartID="9190141" Unit="IN" Qty="1" Size="3.625" />
 		</Operation>
-		<Operation WC="MCH050" />\
+		<Operation WC="MCH050" />
 		<Operation WC="EXT010">
 			<Material PartID="9816001" Unit="EA" Qty="1" />
 		</Operation>
@@ -78,7 +78,7 @@
 		<Operation WC="MCH060"/>
 	</Part>
 	
-	<Part PartId="8033643">
+	<Part PartID="8033643">
 		<Operation WC="MCH010">
 			<Material PartID="6092017" Unit="EA" Qty="1" />
 		</Operation>
