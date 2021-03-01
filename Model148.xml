@@ -22,8 +22,8 @@
 			<Material PartID="2292008" Unit="EA" Qty="3"/>
 			<Material PartID="2152002" Unit="EA" Qty="3"/>
 			<Material PartID="9561031-A" Unit="IN" Qty="2" Size="26" />
-			<Material PartID="9735003" Unit="EA" Qty="2"/>
-			<Material PartID="9710001" Unit="EA" Qty="1"/>
+			<Material PartID="9735003" Unit="IN" Qty="2" Size="26" />
+			<Material PartID="9710001" Unit="ml" Qty="1" Size="0.25" />
 			<Material PartID="2507201" Unit="EA" Qty="8"/>
 			<Material PartID="2577201" Unit="EA" Qty="8"/>
 			<Material PartID="2402006" Unit="EA" Qty="8"/>

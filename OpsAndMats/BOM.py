@@ -263,7 +263,13 @@ class BOM:
                 inches = int(hardwareMatchResult[3]) // 8
                 eighths = int(hardwareMatchResult[3]) % 8
                 if eighths:
-                    hLen = (", {0:d} {1:d}/8" if inches > 0 else "{1:d}/8").format(inches, eighths)
+                    if eighths % 2 == 0:
+                        if eighths % 4 == 0:
+                            hLen = (", {0:d} {1:d}/2" if inches > 0 else ", {1:d}/2").format(inches, eighths // 4)
+                        else:
+                            hLen = (", {0:d} {1:d}/4" if inches > 0 else ", {1:d}/4").format(inches, eighths // 2)
+                    else:
+                        hLen = (", {0:d} {1:d}/8" if inches > 0 else ", {1:d}/8").format(inches, eighths)
                 else:
                     hLen = (", {0:d}" if inches > 0 else "").format(inches, eighths)
         except:
