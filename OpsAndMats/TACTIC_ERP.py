@@ -148,6 +148,7 @@ class TACTIC_ERP:
         if isinstance(self.BOM, etree._Element):
             itemsInBOM.update(set(map(lambda PartXML: PartXML.attrib['PartID'], self.BOM.findall(".//Part"))))
             itemsInBOM.update(set(map(lambda MatXML: MatXML.attrib['PartID'], self.BOM.findall(".//Material"))))
+            self.itemsInBOM = itemsInBOM
             itemRequest = requests.get(''.join([self._report_server, self._url_item, ",".join(itemsInBOM), self._report_suffix]), auth=HttpNegotiateAuth())
             self.items = pd.read_csv(StringIO(itemRequest.content.decode("utf-8")), na_filter=False, dtype=self.itemERP_dtypes)
         else:
@@ -754,8 +755,8 @@ class TACTIC_ERP:
 if __name__ == "__main__":
 
     
-    name = "M291"
-    tree = etree.parse("BOM_XML-input/" + name + ".xml")
+    name = "M411"
+    tree = etree.parse("../" + name + ".xml")
     
     
     
@@ -769,12 +770,12 @@ if __name__ == "__main__":
         (ops, mats) = engBOM.buildItem(buildItem.attrib["PartID"])
         Operations = Operations.append(ops, ignore_index=True)
         Materials = Materials.append(mats, ignore_index=True)
-    engBOM.itemRecommendations.to_excel("BOM_ERP-output/" + name + "_recs.xlsx")
+    engBOM.itemRecommendations.to_excel(name + "_recs.xlsx")
     
     OpColumns = list(engBOM.operation_dtypes)
     MatColumns = list(engBOM.material_dtypes)
     
-    with pd.ExcelWriter("BOM_ERP-output/" + name + ".xlsx") as outFile:
+    with pd.ExcelWriter(name + ".xlsx") as outFile:
         Materials.to_excel(outFile, sheet_name = "Materials", columns = MatColumns, index=False)
         Operations.to_excel(outFile, sheet_name = "Operations", columns = OpColumns, index=False)
 
