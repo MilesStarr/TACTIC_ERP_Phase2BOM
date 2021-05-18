@@ -5,6 +5,9 @@ Created on Fri Aug 21 15:42:28 2020
 @author: eclark
 """
 
+import requests
+from requests_negotiate_sspi import HttpNegotiateAuth
+from io import StringIO
 import pandas as pd
 from lxml import etree
 import copy
@@ -12,10 +15,33 @@ import copy
 import re
 
 class BOM:
+
+    requestItemUrl = ["http://erpsql01.labtesting.local/ReportServer?%2FTactic%20Reports%2FTestTacticCurrentOps&Item=",
+                      "&rc:Toolbar=False&rs:Format=csv"]
+    requestDrawingUrl = ["http://erpsql01.labtesting.local/ReportServer?%2FTactic%20Reports%2FTestTacticCurrentOps&Item=",
+                         "&rc:Toolbar=False&rs:Format=csv"]
+    requestNonInvUrl = ["http://erpsql01.labtesting.local/ReportServer?%2FTactic%20Reports%2FTestTacticCurrentOps&Item=",
+                        "&rc:Toolbar=False&rs:Format=csv"]
+    requestWorkCenterUrl = ["http://erpsql01.labtesting.local/ReportServer?%2FTactic%20Reports%2FTestTacticCurrentOps&Item=",
+                            "&rc:Toolbar=False&rs:Format=csv"]
     
     def __init__(self, BOM = etree.fromstring("<Parts Group='None'><Part ITEM_KEY='Junk'></Part></Parts>")):
+
+        self.BOM = copy.deepcopy(BOM.getroot())
+        
+        # Initialize itemRecommendations
         self.item_dtypes = {'Item': str, 'DESCRIPTION': str, 'TacTic Description': str, 'Revision': str, 'Revision Track': int, 'ECN': int, 'Drawing Number': str, 'Alternate Item': str, 'Buyer': str, 'Stocked': int, 'Show In Drop-Down Lists': int, 'U/M': str, 'Type': str, 'Source': str, 'Product Code': str, 'ABC Code': str, 'Cost Type': str, 'Cost Method': str, 'Unit Cost': str, 'Current Unit Cost': str, 'Lot Size': int, 'Unit Weight': int, 'Weight Units': str, 'Quantity On Hand': float, 'Non-Nettable Stock': float, 'Safety Stock': float, 'Quantity Ordered': float, 'Quantity WIP': float, 'Allocated To Prod': float, 'Allocated To Customer Orders': float, 'Reserved For Customer Orders': float, 'Low Level': int, 'Active for Data Integration': int, 'Planner Code': str, 'Shrink Factor': float, 'Phantom Flag': int, 'MPS Flag': int, 'Net Change': int, 'MPS Plan Fence': int, 'Family Code': str, 'Production Type': str, 'Rate/Day': float, 'Inventory LCL %': str, 'Inventory UCL %': str, 'Supply Site': str, 'Supply Whse': str, 'Paper Work': int, 'Fixed Lead Time': int, 'Expedited Fixed': int, 'Dock-to-Stock': int, 'Variable': int, 'Expedited Variable': int, 'Separation': str, 'Release 1': str, 'Release 2': str, 'Release 3': str, 'MRP Item': int, 'Infinite': int, 'Planned Mfg Supply Switching': int, 'Accept Requirements': int, 'Pass Requirements': int, 'Must use future POs before creating PLNs': int, 'Supply Usage Tolerance': int, 'Time Fence Rule': str, 'Time Fence Value': int, 'Pull-Up SS Rule': str, 'Pull-Up SS Value': int, 'Setup Group': str, 'Charge Item': str, 'Order Minimum': int, 'Order Multiple': int, 'Order Maximum': int, 'Days Supply': int, 'Use Reorder Point': int, 'Reorder Point': int, 'Fixed Order Qty': int, 'Earliest Planned Purchase Receipt': str, 'Targeted Safety Stock Replenishment': str, 'Lot Track': int, 'Preassign Lots': int, 'Lot Prefix': str, 'S/N Track': int, 'Preassign Serials': int, 'S/N Prefix': str, 'Shelf Life': str, 'Issue By': str, 'Material Status': str, 'Reason': str, 'Last Change': str, 'User': str, 'Backflush': int, 'Backflush Location': str, 'Preferred Co-product Mix': str, 'Reservable': int, 'Tax-Free Imported Material': int, 'Tax Free Days': int, 'Safety Stock Percent': int, 'Tariff Classification': str, 'PO Tolerance Over': str, 'PO Tolerance Under': str, 'Kit': int, 'Print Kit Components on Customer Paperwork': int} #, 'Std Due Period': str, 'Commodity': str, 'Commodity Description': str, 'Tax Code': str, 'Tax Code Description': str, 'Origin': str, 'Country': str, 'Preference Criterion': str, 'Country Of Origin': str, 'Producer': int, 'Subject To RVC Requirements': int, 'Purchased YTD': float, 'Manufactured YTD': float, 'Used YTD': float, 'Sold YTD': float, 'Subject To Excise Tax': int, 'Excise Tax Percent': float, 'Wholesale Price': float, 'Includes Item Content': int, 'Order Configurable': int, 'Job Configurable': int, 'Auto Job Generation': str, 'Name Space': str, 'Configuration Flag': int, 'Feature String': str, 'Feature Template': str, 'Last Import Date': str, 'Save Current Revision Upon Import': int, 'Overview': str, 'Active For Customer Portal': int, 'Featured Item': int, 'Top Seller': int, 'Item Attribute Group': str, 'Item Attribute Group Description': str, 'Lot Attribute Group': str, 'Lot Attribute Group Description': str, 'Enable Pieces Inventory': int, 'Piece Dimension Group': str, 'Piece Dimension Group Description': str, 'Portal Pricing Enabled': int, 'Portal Pricing Site': str, 'Freight': str, 'Estimated Break Date': str, 'Date of Last Report': str, 'Commodity Jurisdiction': str, 'ECCN or USML CAT': str, 'Program (ITAR/EAR600 Series)': str, 'Schedule B Number': str, 'HTS Code': str, 'HTS Code Description': str, 'Country Of Origin': str, 'Length Linear Dimension': str, 'Linear Dimension UM': str, 'Width Linear Dimension': str, 'Height Linear Dimension': str, 'Density': float, 'Density UM': str, 'Area': float, 'Area UM': str, 'Bulk Mass': float, 'Bulk Mass UM': str, 'Ream Mass': float, 'Ream Mass UM': str, 'Paper Mass Basis': str, 'Grade': str, 'Abnormal Size': int}
-        self.items = pd.read_excel(r"\\TACTICFILE\Public\Everyone\ERP\Item Database (CSI Format) Pilot2.xlsx", sheet_name="Item Database (CSI Format)", converters=self.item_dtypes).fillna("")
+        item_cols = list(self.item_dtypes)
+        self.__itemRecommendations = pd.DataFrame(columns = item_cols)
+
+        # Retrieve items listed in BOM
+        self.itemERP_dtypes = {'Item': str, 'DESCRIPTION': str, 'Drawing Number': str, 'Stocked': int, 'TacTic Description': str, 'U/M': str, 'Type': str, 'Source': str, 'Product Code': str, 'ABC Code': str, 'Cost Type': str, 'Cost Method': str, 'Active for Data Integration': int, 'Planner Code': str, 'Phantom Flag': int, 'Material Status': str, 'Backflush': int, 'Backflush Location': str}
+        itemsInBOM = set(map(lambda PartXML: PartXML.attrib['PartID'], self.BOM.findall(".//Part")))
+        itemsInBOM.add(set(map(lambda MatXML: MatXML.attrib['PartID'], self.BOM.findall(".//Material"))))
+        itemsInBOM = ",".join(itemsInBOM)
+        itemsInBOM = requests.get(itemsInBOM.join(self.requestItemUrl), auth=HttpNegotiateAuth())
+        self.items = pd.read_csv(StringIO(itemsInBOM.content.decode("utf-8")), na_filter=False, dtype=self.itemERP_dtypes)
+        #  the old excel version: self.items = pd.read_excel(r"\\TACTICFILE\Public\Everyone\ERP\Item Database (CSI Format) Pilot2.xlsx", sheet_name="Item Database (CSI Format)", converters=self.item_dtypes).fillna("")
         
 #        self.dwgindex_dtypes = {'SIZE': str, 'DWG. NO.': str, 'TITLE': str, 'MODEL': str, 'DRN': str, 'DATE': str, 'PROJECT': str,'BOOK': str}
 #        self.dwgindex = pd.read_excel("Copy of Drawing Index.xlsx", converters=self.dwgindex_dtypes).fillna("")
@@ -33,9 +59,6 @@ class BOM:
         self.wc_dtypes = {'Work Center': str, 'Name': str, 'Department': str, 'Dept Description': str, 'Alt. Work Ctr': str, 'Alt. Work Ctr Name': str, 'Shift ID': str, 'Backflush': str, 'Overhead Basis': str, 'Schedule Driver': str, 'Efficiency': float, 'Queue Hours': float, 'Finish Hours': float, 'Control Point': int, 'Outside': int, 'Setup Rate': float, 'Run Rate (Lbr)': float, 'Fix Mach Ovhd Rate': float, 'Var Mach Ovhd Rate': float, 'Avg Setup Rate': float, 'Avg Run Rate (Lbr)': float, 'Cost Code': str, 'Fix Mach Ovhd Applied Acct': str, 'Fix Mach Ovhd Appl Acct Unit1': str, 'Fix Mach Ovhd Appl Acct Unit2': str, 'Fix Mach Ovhd Appl Acct Unit3': str, 'Fix Mach Ovhd Appl Acct Unit4': str, 'Fix Mach Ovhd Appl Acct Description': str, 'Var Mach Ovhd Applied Acct': str, 'Var Mach Ovhd Appl Acct Unit1': str, 'Var Mach Ovhd Appl Acct Unit2': str, 'Var Mach Ovhd Appl Acct Unit3': str, 'Var Mach Ovhd Appl Acct Unit4': str, 'Var Mach Ovhd Appl Acct Description': str, 'Material WIP Acct': str, 'Material WIP Acct Unit1': str, 'Material WIP Acct Unit2': str, 'Material WIP Acct Unit3': str, 'Material WIP Acct Unit4': str, 'Material WIP Acct Description': str, 'Labor WIP Acct': str, 'Labor WIP Acct Unit1': str, 'Labor WIP Acct Unit2': str, 'Labor WIP Acct Unit3': str, 'Labor WIP Acct Unit4': str, 'Labor WIP Acct Description': str, 'Fixed Ovhd WIP Acct': str, 'Fix Ovhd WIP Acct Unit1': str, 'Fix Ovhd WIP Acct Unit2': str, 'Fix Ovhd WIP Acct Unit3': str, 'Fix Ovhd WIP Acct Unit4': str, 'Fix Ovhd WIP Acct Description': str, 'Var Ovhd WIP Acct': str, 'Var Ovhd WIP Acct Unit1': str, 'Var Ovhd WIP Acct Unit2': str, 'Var Ovhd WIP Acct Unit3': str, 'Var Ovhd WIP Acct Unit4': str, 'Var Ovhd WIP Acct Description': str, 'Outside WIP Acct': str, 'Outside WIP Acct Unit1': str, 'Outside WIP Acct Unit2': str, 'Outside WIP Acct Unit3': str, 'Outside WIP Acct Unit4': str, 'Outside WIP Acct Description': str, 'Material Usage Variance': str, 'Material Usage Var Acct Unit1': str, 'Material Usage Var Acct Unit2': str, 'Material Usage Var Acct Unit3': str, 'Material Usage Var Acct Unit4': str, 'Material Usage Var Acct Description': str, 'Labor Rate Variance': str, 'Labor Rate Var Acct Unit1': str, 'Labor Rate Var Acct Unit2': str, 'Labor Rate Var Acct Unit3': str, 'Labor Rate Var Acct Unit4': str, 'Labor Rate Var Acct Description': str, 'Labor Usage Variance': str, 'Labor Usage Var Acct Unit1': str, 'Labor Usage Var Acct Unit2': str, 'Labor Usage Var Acct Unit3': str, 'Labor Usage Var Acct Unit4': str, 'Labor Usage Var Acct Description': str, 'Fix Matl Ovhd Usage': str, 'Fix Mat Ovhd Usage Acct Unit1': str, 'Fix Mat Ovhd Usage Acct Unit2': str, 'Fix Mat Ovhd Usage Acct Unit3': str, 'Fix Mat Ovhd Usage Acct Unit4': str, 'Fix Mat Ovhd Usage Acct Description': str, 'Var Matl Ovhd Usage': str, 'Var Mat Ovhd Usage Acct Unit1': str, 'Var Mat Ovhd Usage Acct Unit2': str, 'Var Mat Ovhd Usage Acct Unit3': str, 'Var Mat Ovhd Usage Acct Unit4': str, 'Var Mat Ovhd Usage Acct Description': str, 'Fix Labor Ovhd Usage': str, 'Fix Lbr Ovhd Usage Acct Unit1': str, 'Fix Lbr Ovhd Usage Acct Unit2': str, 'Fix Lbr Ovhd Usage Acct Unit3': str, 'Fix Lbr Ovhd Usage Acct Unit4': str, 'Fix Labor Ovhd Usage Description': str, 'Var Labor Ovhd Usage': str, 'Var Lbr Ovhd Usage Acct Unit1': str, 'Var Lbr Ovhd Usage Acct Unit2': str, 'Var Lbr Ovhd Usage Acct Unit3': str, 'Var Lbr Ovhd Usage Acct Unit4': str, 'Var Lbr Ovhd Usage Acct Description': str, 'Fix Mach Ovhd Usage': str, 'Fix Mach Ovhd Usage Acct Unit1': str, 'Fix Mach Ovhd Usage Acct Unit2': str, 'Fix Mach Ovhd Usage Acct Unit3': str, 'Fix Mach Ovhd Usage Acct Unit4': str, 'Fix Mach Ovhd Usage Acct Description': str, 'Var Mach Ovhd Usage': str, 'Var Mach Ovhd Usage Acct Unit1': str, 'Var Mach Ovhd Usage Acct Unit2': str, 'Var Mach Ovhd Usage Acct Unit3': str, 'Var Mach Ovhd Usage Acct Unit4': str, 'Var Mach Ovhd Usage Acct Description': str, 'Total Qty Queued': float, 'Total Setup Hours': float, 'Total Run Hours (Lbr)': float, 'Total Run Hours (Mach)': float, 'Avg Queue Hours': float, 'Material WIP': float, 'Labor WIP': float, 'Fix Ovhd WIP': float, 'Var Ovhd WIP': float, 'Outside WIP': float, 'Total WIP': float}
         self.wc = pd.read_excel(r"\\TACTICFILE\Public\Everyone\ERP\WorkCenters.xlsx", converters=self.wc_dtypes).fillna("")
         
-        self.BOM = copy.deepcopy(BOM.getroot())
-        item_cols = list(self.item_dtypes)
-        self.__itemRecommendations = pd.DataFrame(columns = item_cols)
         
     @property
     def itemRecommendations(self):
@@ -46,16 +69,13 @@ class BOM:
         Intended to be used for fetchItem(Item = "ItemID")
         but any column value can be used for the parameter variable.
         Function searches to match parameter as the column name from
-        the items table loaded from excel.  Failure to match will be noted
-        and recommended item table additions generated.
-        Recommended additions to the item table will assume that it was used
-        to search for an ItemID until the time comes to upgrade this function
+        the items table.  Failure to have an exact match will return None.
         """
         # Error checking inputs
         if len(kwargs) != 1:
             raise AssertionError("Too many parameters")
         for key in kwargs.keys():
-            if not(key in self.item_dtypes.keys()):
+            if not(key in self.itemERP_dtypes.keys()):
                 raise NameError(key, " not found in item header")
         
         key = list(kwargs.keys())[0]
@@ -63,28 +83,41 @@ class BOM:
         
         # Get results from items table
         partItemDef = self.items.loc[self.items[key] == value]
-        partNonInvDef = self.noninv.loc[self.noninv[key] == value]
-        if len(partItemDef)==1 or len(partNonInvDef) > 0:
-            # resolve if inventory or non-inventory and return item definition
-            if len(partNonInvDef) > 0: #if multiple hits, first one wins
-                fakeInvDef = {'Item': partNonInvDef.iloc[0]["Item"], 'DESCRIPTION': partNonInvDef.iloc[0]["Description"], 'TacTic Description': partNonInvDef.iloc[0]["Description"], 'Revision': partNonInvDef.iloc[0]["Revision"], 'Revision Track': 0, 'ECN': 0, 'Drawing Number': partNonInvDef.iloc[0]["Drawing Number"], 'Alternate Item': "", 'Buyer': partNonInvDef.iloc[0]["Buyer"], 'Stocked': 1, 'Show In Drop-Down Lists': partNonInvDef.iloc[0]["Show In Drop-Down Lists"], 'U/M': partNonInvDef.iloc[0]["U/M"], 'Type': partNonInvDef.iloc[0]["Type"], 'Source': "Purchased", 'Product Code': partNonInvDef.iloc[0]["Product Code"], 'ABC Code': "C", 'Cost Type': "Standard", 'Cost Method': "Standard", 'Unit Cost': partNonInvDef.iloc[0]["Unit Cost"], 'Current Unit Cost': partNonInvDef.iloc[0]["Unit Cost"], 'Lot Size': 1, 'Unit Weight': partNonInvDef.iloc[0]["Unit Weight"], 'Weight Units': partNonInvDef.iloc[0]["Weight Units"], 'Quantity On Hand': 123456789, 'Non-Nettable Stock': 123456789, 'Safety Stock': 123456789, 'Quantity Ordered': 123456789, 'Quantity WIP': 123456789, 'Allocated To Prod': 123456789, 'Allocated To Customer Orders': 123456789, 'Reserved For Customer Orders': 123456789, 'Low Level': 20, 'Active for Data Integration': 1, 'Planner Code': "Non-Inv", 'Shrink Factor': 0, 'Phantom Flag': 0, 'MPS Flag': 0, 'Net Change': 0, 'MPS Plan Fence': 0, 'Family Code': "", 'Production Type': "Job", 'Rate/Day': 1, 'Inventory LCL %': "", 'Inventory UCL %': "", 'Supply Site': "", 'Supply Whse': "", 'Paper Work': 0, 'Fixed Lead Time': 0, 'Expedited Fixed': 0, 'Dock-to-Stock': 0, 'Variable': 0, 'Expedited Variable': 0, 'Separation': "", 'Release 1': "", 'Release 2': "", 'Release 3': "", 'MRP Item': 0, 'Infinite': 1, 'Planned Mfg Supply Switching': 0, 'Accept Requirements': 1, 'Pass Requirements': 1, 'Must use future POs before creating PLNs': 0, 'Supply Usage Tolerance': 0, 'Time Fence Rule': "", 'Time Fence Value': 0, 'Pull-Up SS Rule': "", 'Pull-Up SS Value': 0, 'Setup Group': "", 'Charge Item': "", 'Order Minimum': 0, 'Order Multiple': 0, 'Order Maximum': 0, 'Days Supply': 0, 'Use Reorder Point': 0, 'Reorder Point': 0, 'Fixed Order Qty': 0, 'Earliest Planned Purchase Receipt': "", 'Targeted Safety Stock Replenishment': "", 'Lot Track': 0, 'Preassign Lots': 0, 'Lot Prefix': "", 'S/N Track': 0, 'Preassign Serials': 0, 'S/N Prefix': "", 'Shelf Life': "", 'Issue By': "", 'Material Status': "", 'Reason': "", 'Last Change': "", 'User': "", 'Backflush': 1, 'Backflush Location': "", 'Preferred Co-product Mix': "", 'Reservable': 0, 'Tax-Free Imported Material': 0, 'Tax Free Days': 0, 'Safety Stock Percent': 0, 'Tariff Classification': "", 'PO Tolerance Over': "", 'PO Tolerance Under': "", 'Kit': 0, 'Print Kit Components on Customer Paperwork': 0, 'Std Due Period': "", 'Commodity': "", 'Commodity Description': "", 'Tax Code': "", 'Tax Code Description': "", 'Origin': "", 'Country': "", 'Preference Criterion': "", 'Country Of Origin': "", 'Producer': 0, 'Subject To RVC Requirements': 0, 'Purchased YTD': 123456789, 'Manufactured YTD': 123456789, 'Used YTD': 123456789, 'Sold YTD': 123456789, 'Subject To Excise Tax': 0, 'Excise Tax Percent': 123456789, 'Wholesale Price': 123456789, 'Includes Item Content': 0, 'Order Configurable': 0, 'Job Configurable': 0, 'Auto Job Generation': "", 'Name Space': "", 'Configuration Flag': 0, 'Feature String': "", 'Feature Template': "", 'Last Import Date': "", 'Save Current Revision Upon Import': 0, 'Overview': "", 'Active For Customer Portal': 0, 'Featured Item': 0, 'Top Seller': 0, 'Item Attribute Group': "", 'Item Attribute Group Description': "", 'Lot Attribute Group': "", 'Lot Attribute Group Description': "", 'Enable Pieces Inventory': 0, 'Piece Dimension Group': "", 'Piece Dimension Group Description': "", 'Portal Pricing Enabled': 0, 'Portal Pricing Site': "", 'Freight': "", 'Estimated Break Date': "", 'Date of Last Report': "", 'Commodity Jurisdiction': "", 'ECCN or USML CAT': "", 'Program (ITAR/EAR600 Series)': "", 'Schedule B Number': "", 'HTS Code': "", 'HTS Code Description': "", 'Country Of Origin': "", 'Length Linear Dimension': "", 'Linear Dimension UM': "", 'Width Linear Dimension': "", 'Height Linear Dimension': "", 'Density': 123456789, 'Density UM': "", 'Area': 123456789, 'Area UM': "", 'Bulk Mass': 123456789, 'Bulk Mass UM': "", 'Ream Mass': 123456789, 'Ream Mass UM': "", 'Paper Mass Basis': "", 'Grade': "", 'Abnormal Size': 0}
-                return pd.Series(fakeInvDef)
-            else:
-                 return partItemDef.iloc[0]
-        elif len(partItemDef) == 0:            
-            # part not found, make an entry into the recommended additions to the item table
-            recExists = self.__itemRecommendations.loc[self.__itemRecommendations[key] == value]
-            if len(recExists) == 0:
-                print(str(key) + " == " + str(value) + " not found in items table.  Recommended Item added to itemRecommendations attribute")
-                recommendedItem = self.makeItemRecommendation(**kwargs)
-                self.__itemRecommendations = self.__itemRecommendations.append(recommendedItem, ignore_index = True)
-                return recommendedItem
-            else:
-                print(str(key) + " == " + str(value) + " already recommended as missing")
-                return recExists.iloc[0]
-        else:
-            print("multiple rows match " + str(key) + " == " + str(value))
+
+        if len(partItemDef)==1:
             return partItemDef.iloc[0]
+        elif len(partItemDef) > 1:
+            print("multiple rows match " + str(key) + " == " + str(value))
+            return None
+        else:
+            print(str(key) + " == " + str(value) + " not found in items table.")
+            return None
+        
+
+#Portion of old function that tried to make item recommendations... too far out of scope for clean code
+#        partNonInvDef = self.noninv.loc[self.noninv[key] == value]
+#
+#        if len(partItemDef)==1 or len(partNonInvDef) > 0:
+#            # resolve if inventory or non-inventory and return item definition
+#            if len(partNonInvDef) > 0: #if multiple hits, first one wins
+#                fakeInvDef = {'Item': partNonInvDef.iloc[0]["Item"], 'DESCRIPTION': partNonInvDef.iloc[0]["Description"], 'TacTic Description': partNonInvDef.iloc[0]["Description"], 'Revision': partNonInvDef.iloc[0]["Revision"], 'Revision Track': 0, 'ECN': 0, 'Drawing Number': partNonInvDef.iloc[0]["Drawing Number"], 'Alternate Item': "", 'Buyer': partNonInvDef.iloc[0]["Buyer"], 'Stocked': 1, 'Show In Drop-Down Lists': partNonInvDef.iloc[0]["Show In Drop-Down Lists"], 'U/M': partNonInvDef.iloc[0]["U/M"], 'Type': partNonInvDef.iloc[0]["Type"], 'Source': "Purchased", 'Product Code': partNonInvDef.iloc[0]["Product Code"], 'ABC Code': "C", 'Cost Type': "Standard", 'Cost Method': "Standard", 'Unit Cost': partNonInvDef.iloc[0]["Unit Cost"], 'Current Unit Cost': partNonInvDef.iloc[0]["Unit Cost"], 'Lot Size': 1, 'Unit Weight': partNonInvDef.iloc[0]["Unit Weight"], 'Weight Units': partNonInvDef.iloc[0]["Weight Units"], 'Quantity On Hand': 123456789, 'Non-Nettable Stock': 123456789, 'Safety Stock': 123456789, 'Quantity Ordered': 123456789, 'Quantity WIP': 123456789, 'Allocated To Prod': 123456789, 'Allocated To Customer Orders': 123456789, 'Reserved For Customer Orders': 123456789, 'Low Level': 20, 'Active for Data Integration': 1, 'Planner Code': "Non-Inv", 'Shrink Factor': 0, 'Phantom Flag': 0, 'MPS Flag': 0, 'Net Change': 0, 'MPS Plan Fence': 0, 'Family Code': "", 'Production Type': "Job", 'Rate/Day': 1, 'Inventory LCL %': "", 'Inventory UCL %': "", 'Supply Site': "", 'Supply Whse': "", 'Paper Work': 0, 'Fixed Lead Time': 0, 'Expedited Fixed': 0, 'Dock-to-Stock': 0, 'Variable': 0, 'Expedited Variable': 0, 'Separation': "", 'Release 1': "", 'Release 2': "", 'Release 3': "", 'MRP Item': 0, 'Infinite': 1, 'Planned Mfg Supply Switching': 0, 'Accept Requirements': 1, 'Pass Requirements': 1, 'Must use future POs before creating PLNs': 0, 'Supply Usage Tolerance': 0, 'Time Fence Rule': "", 'Time Fence Value': 0, 'Pull-Up SS Rule': "", 'Pull-Up SS Value': 0, 'Setup Group': "", 'Charge Item': "", 'Order Minimum': 0, 'Order Multiple': 0, 'Order Maximum': 0, 'Days Supply': 0, 'Use Reorder Point': 0, 'Reorder Point': 0, 'Fixed Order Qty': 0, 'Earliest Planned Purchase Receipt': "", 'Targeted Safety Stock Replenishment': "", 'Lot Track': 0, 'Preassign Lots': 0, 'Lot Prefix': "", 'S/N Track': 0, 'Preassign Serials': 0, 'S/N Prefix': "", 'Shelf Life': "", 'Issue By': "", 'Material Status': "", 'Reason': "", 'Last Change': "", 'User': "", 'Backflush': 1, 'Backflush Location': "", 'Preferred Co-product Mix': "", 'Reservable': 0, 'Tax-Free Imported Material': 0, 'Tax Free Days': 0, 'Safety Stock Percent': 0, 'Tariff Classification': "", 'PO Tolerance Over': "", 'PO Tolerance Under': "", 'Kit': 0, 'Print Kit Components on Customer Paperwork': 0, 'Std Due Period': "", 'Commodity': "", 'Commodity Description': "", 'Tax Code': "", 'Tax Code Description': "", 'Origin': "", 'Country': "", 'Preference Criterion': "", 'Country Of Origin': "", 'Producer': 0, 'Subject To RVC Requirements': 0, 'Purchased YTD': 123456789, 'Manufactured YTD': 123456789, 'Used YTD': 123456789, 'Sold YTD': 123456789, 'Subject To Excise Tax': 0, 'Excise Tax Percent': 123456789, 'Wholesale Price': 123456789, 'Includes Item Content': 0, 'Order Configurable': 0, 'Job Configurable': 0, 'Auto Job Generation': "", 'Name Space': "", 'Configuration Flag': 0, 'Feature String': "", 'Feature Template': "", 'Last Import Date': "", 'Save Current Revision Upon Import': 0, 'Overview': "", 'Active For Customer Portal': 0, 'Featured Item': 0, 'Top Seller': 0, 'Item Attribute Group': "", 'Item Attribute Group Description': "", 'Lot Attribute Group': "", 'Lot Attribute Group Description': "", 'Enable Pieces Inventory': 0, 'Piece Dimension Group': "", 'Piece Dimension Group Description': "", 'Portal Pricing Enabled': 0, 'Portal Pricing Site': "", 'Freight': "", 'Estimated Break Date': "", 'Date of Last Report': "", 'Commodity Jurisdiction': "", 'ECCN or USML CAT': "", 'Program (ITAR/EAR600 Series)': "", 'Schedule B Number': "", 'HTS Code': "", 'HTS Code Description': "", 'Country Of Origin': "", 'Length Linear Dimension': "", 'Linear Dimension UM': "", 'Width Linear Dimension': "", 'Height Linear Dimension': "", 'Density': 123456789, 'Density UM': "", 'Area': 123456789, 'Area UM': "", 'Bulk Mass': 123456789, 'Bulk Mass UM': "", 'Ream Mass': 123456789, 'Ream Mass UM': "", 'Paper Mass Basis': "", 'Grade': "", 'Abnormal Size': 0}
+#                return pd.Series(fakeInvDef)
+#            else:
+#                 return partItemDef.iloc[0]
+#        elif len(partItemDef) == 0:
+#            # part not found, make an entry into the recommended additions to the item table
+#            recExists = self.__itemRecommendations.loc[self.__itemRecommendations[key] == value]
+#            if len(recExists) == 0:
+#                print(str(key) + " == " + str(value) + " not found in items table.  Recommended Item added to itemRecommendations attribute")
+#                recommendedItem = self.makeItemRecommendation(**kwargs)
+#                self.__itemRecommendations = self.__itemRecommendations.append(recommendedItem, ignore_index = True)
+#                return recommendedItem
+#            else:
+#                print(str(key) + " == " + str(value) + " already recommended as missing")
+#                return recExists.iloc[0]
+#        else:
+#            print("multiple rows match " + str(key) + " == " + str(value))
+#            return partItemDef.iloc[0]
     
     def makeItemRecommendation(self, **kwargs):
         #default items table row definition
@@ -188,6 +221,7 @@ class BOM:
             recommendation['Item'] = "Unknown"
             recommendation['DESCRIPTION'] = "Unknown"
             recommendation['TacTic Description'] = "Unknown"
+            recommendation['U/M'] = "Unknown"
         return pd.Series(recommendation)
     
     def fetchDrawing(self, DWG_NO = "12345"):
@@ -321,6 +355,11 @@ class BOM:
                        "Fixed Overhead Cost": 0, "Variable Overhead Cost": 0}
         
         itemDef = self.fetchItem(Item = PartID)
+        if itemDef is None:
+            # Handle failed lookups.
+            itemDef = self.makeItemRecommendation(Item = PartID)
+            self.__itemRecommendations = self.__itemRecommendations.append(itemDef, ignore_index = True)
+        
         matTemplate["Item"] = itemDef["Item"]
         opTemplate["Item"] = itemDef["Item"]
         matTemplate["Item Description"] = itemDef["DESCRIPTION"]
@@ -369,8 +408,16 @@ class BOM:
         try:
             reportQty = int(target.attrib['Qty']) * quantity
         except ValueError:
-            reportQty = float(target.attrib['Qty']) * quantity
+            reportQty = float(target.attrib['Qty']) * quantity  # if someone forgot to use Size properly for an assumed quantity of 1
         itemDef = self.fetchItem(Item = target.attrib['PartID'])
+        if itemDef is None:
+            # Handle failed lookups.
+            itemDef = self.makeItemRecommendation(Item = target.attrib['PartID'])
+            self.__itemRecommendations = self.__itemRecommendations.append(itemDef, ignore_index = True)
+        
+        if itemDef['UoM'] != target.attrib['Unit']:
+            print("Warning: Units mismatch for material " + target.attrib['PartID']) #Only print a warning because some unit conversions are acceptable
+
         if 'Size' not in target.attrib:
             results = [{'PartID': target.attrib['PartID'],
                         'Material Description': itemDef['DESCRIPTION'],
