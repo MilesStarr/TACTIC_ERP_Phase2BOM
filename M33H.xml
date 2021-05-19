@@ -16,9 +16,7 @@
 		</Operation>
 		<Operation WC="FAB040" />
 		<Operation WC="FIN010" />
-		<Operation WC="FIN020">
-			<Material PartID="9812001" Qty="1" Unit="Pt" Size=".0625" />
-		</Operation>
+		<Operation WC="FIN020" />
 	</Part>
 	
 	<Part PartID="8026973-2">
@@ -27,9 +25,7 @@
 		</Operation>
 		<Operation WC="FAB040" />
 		<Operation WC="FIN010" />
-		<Operation WC="FIN020">
-			<Material PartID="9812001" Qty="1" Unit="Pt" Size=".0625" />
-		</Operation>
+		<Operation WC="FIN020" />
 	</Part>
 	
 	<Part PartID="8034547">
@@ -39,9 +35,7 @@
 		<Operation WC="FAB040" />
 		<Operation WC="MCH010" />
 		<Operation WC="FIN010" />
-		<Operation WC="FIN020">
-			<Material PartID="9812001" Qty="1" Unit="Pt" Size=".0625" />
-		</Operation>
+		<Operation WC="FIN020" />
 	</Part>
 	
 <!-- already defined in Model33M.xml

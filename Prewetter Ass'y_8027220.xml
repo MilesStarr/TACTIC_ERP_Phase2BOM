@@ -10,9 +10,7 @@
 		<Operation WC="MCH010" />
 		<Operation WC="MCH060" />
 		<Operation WC="FIN010" />
-		<Operation WC="FIN020">
-			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
-		</Operation>
+		<Operation WC="FIN020" />
 	</Part>
 	
 	<Part PartID="8029309">
@@ -23,9 +21,7 @@
 		<Operation WC="FAB030" />	
 		<Operation WC="FAB040" />	
 		<Operation WC="FIN010" />
-		<Operation WC="FIN020">
-			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0625" />
-		</Operation>	
+		<Operation WC="FIN020" />	
 	</Part>
 	
 	<Part PartID="8026497-1">
@@ -61,7 +57,9 @@
 			<Material PartID="9900002" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
-	
+
+<!-- significant manual edits inside ERP to generate these items and there is no 8027220-X item anymore
+
 	<Part PartID="8027220-X">
 		<Operation WC="ASY010">
 			<Material PartID="5465209" Unit="EA" Qty="1" />
@@ -169,6 +167,6 @@
 			<Material PartID="8027095" Unit="EA" Qty="1" />
 		</Operation>
 	</Part>
-	
+-->	
 </Parts>
 	

@@ -27,9 +27,7 @@
 			<Material PartID="8025200" Unit="EA" Qty="2" />
 		</Operation>
 		<Operation WC="FIN010" />
-		<Operation WC="FIN020">
-			<Material PartID="9812001" Unit="PT" Qty="1" Size="0.0313" />
-		</Operation>
+		<Operation WC="FIN020" />
 	</Part>
 	
 	<Part PartID="8025196">
