@@ -12,6 +12,10 @@ import pandas as pd
 from lxml import etree
 import copy
 import re
+import argparse
+import os
+import csv
+pd.options.mode.chained_assignment = None  # default='warn'
 
 class TACTIC_ERP:
     """
@@ -23,7 +27,7 @@ class TACTIC_ERP:
     server.  To this end we make requests from MSSQL via ReportServer to
     access read-only versions of what is contained by the ERP.  Any input
     into the ERP needs to be written to an excel file to then be copied 
-    and pasted into the SyleLine software.
+    and pasted into the SyteLine software.
     """
 
     # Server connection strings
@@ -34,6 +38,7 @@ class TACTIC_ERP:
     _url_work_center = "ReportServer?%2FTactic%20Reports%2FTacticWcs&WC="
     _url_current_operation = "ReportServer?%2FTactic%20Reports%2FTestTacticCurrentOps&Item="
     _url_current_material = "ReportServer?%2FTactic%20Reports%2FTestTacticCurrentMatls&Item="
+    _url_job_order = "ReportServer?%2FTactic%20Reports%2FTacticJobOrderInfo"
     _report_suffix = "&rc:Toolbar=False&rs:Format=csv"
 
     # Data Parameters
@@ -138,6 +143,7 @@ class TACTIC_ERP:
         
         if BOM is None:
             self.BOM = None
+            return
         elif isinstance(BOM, etree._ElementTree):
             self.BOM = copy.deepcopy(BOM.getroot())
         elif isinstance(BOM, str):
@@ -199,7 +205,8 @@ class TACTIC_ERP:
             print("multiple rows match " + str(key) + " == " + str(value))
             return None
         else:
-            print(str(key) + " == " + str(value) + " not found in items table.")
+            if value not in list(self._itemRecommendations[key]):
+                print(str(key) + " == " + str(value) + " not found in items table.")
             return None
 
     def makeItemRecommendation(self, **kwargs):
@@ -752,37 +759,95 @@ class TACTIC_ERP:
         mats = requests.get("".join([self._report_server, self._url_current_material, querry, self._report_suffix]), auth=HttpNegotiateAuth())
         return pd.read_csv(StringIO(mats.content.decode("utf-8")), na_filter=False, dtype=matCols)
 
+    def requestJobOrder(self, job = "J123456789", suffix = "1234"):
+        """
+        take two strings and try to get the ERP data for the associated job.
+        return None if fails
+        return a dict('Job': __, 'Job Suffix': __, 'Item': __,
+                      'Released': __, 'Expected': __, 'Completed': __,
+                      'Scrapped': __, 'Rework': __, 'Status': __,
+                      'Job Date': __, 'Start Date': __, 'End Date': __)
+        """
+        
+        if not(type(job) == str and type(suffix) == str):
+            return None
+        jobData = requests.get("".join([self._report_server, self._url_job_order, "&Job=", job, "&Suffix=", suffix, self._report_suffix]), auth=HttpNegotiateAuth())
+        jobDict = csv.DictReader(StringIO(jobData.content.decode("utf-8")), fieldnames=['Job', 'Suffix', 'Item', 'Released', 'Expected', 'Complete', 'Scrapped', 'Rework', 'Status', 'Job_Date', 'Start_Date', 'End_Date'])
+        next(jobDict) # discard header
+        jobDict = dict(next(jobDict)) #calling dict to have a normal dict because this is written before Python 3.8  (time to update my system...)
+        
+        #validate and clean data
+        cleanDate = re.compile("(\d{1,2}/\d{1,2}/\d{2,4}).*")
+        for key in ["Job_Date", "Start_Date", "End_Date"]:
+            jobDict[key] = cleanDate.fullmatch(jobDict[key])[1]
+        for key in ["Released", "Expected", "Complete", "Scrapped"]:
+            jobDict[key] = int(float(jobDict[key])) if float(jobDict[key]) == float(int(float(jobDict[key]))) else float(jobDict[key])
+        jobDict['Suffix'] = "{:04d}".format(int(jobDict['Suffix']))
+        jobDict['Rework'] = bool(int(jobDict['Rework']))
+        return jobDict
+        
+
+    def parseCurrentBOM(self, outFilename = "outputFile"):
+        """
+        parse through the xml loaded during initialization and write an excel
+        file with the operations and materials written in the xml
+        """
+        Operations = pd.DataFrame()
+        Materials = pd.DataFrame()
+        buildMe = self.BOM.findall(".//Part")
+        for buildItem in buildMe:
+            (ops, mats) = self.buildItem(buildItem.attrib["PartID"])
+            Operations = Operations.append(ops, ignore_index=True)
+            Materials = Materials.append(mats, ignore_index=True)
+        if len(self.itemRecommendations) > 0:
+            self.itemRecommendations.to_excel(outFilename + "_recs.xlsx")
+        OpColumns = list(self.operation_dtypes)
+        MatColumns = list(self.material_dtypes)
+        with pd.ExcelWriter(outFilename + ".xlsx") as outFile:
+            Operations.to_excel(outFile, sheet_name = "Operations", columns = OpColumns, index=False)
+            Materials.to_excel(outFile, sheet_name = "Materials", columns = MatColumns, index=False)
+
 if __name__ == "__main__":
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--xml", action="store", type=str, help="the XML file containing a current BOM")
+    parser.add_argument("--job", action="store", type=str, help="run the job creation tool")
+    jobValidator = re.compile("J?(\d{1,9})-(\d{1,4})")
+    args = parser.parse_args()
     
-    name = "M411"
-    tree = etree.parse("../" + name + ".xml")
+    if not (args.xml or args.job):
+        # for those running the program by double click instead of proper CLI
+        print("Select operation mode:")
+        print("1: Build BOM from XML")
+        print("2: Build Job BOM from Job Number")
+        mode = input("Mode: ")
+        if mode not in ["1", "2"]:
+            print("improper response, terminating")
+        elif mode[0] == "1":
+            print("include the file extension (.xml) in your input...")
+            args.xml = input ("What file do you want to process? ")
+        elif mode[0] == "2":
+            print("Job identifiers are two integers separated by a dash.")
+            print("The ERP is stupid.  We are smart. We will add the J and zeros for you!")
+            args.job = input("The job to generate: ")
     
     
-    
-    Operations = pd.DataFrame()
-    Materials = pd.DataFrame()
-    
-    engBOM = TACTIC_ERP(tree)
-    
-    buildMe = tree.getroot().findall(".//Part")
-    for buildItem in buildMe:
-        (ops, mats) = engBOM.buildItem(buildItem.attrib["PartID"])
-        Operations = Operations.append(ops, ignore_index=True)
-        Materials = Materials.append(mats, ignore_index=True)
-    engBOM.itemRecommendations.to_excel(name + "_recs.xlsx")
-    
-    OpColumns = list(engBOM.operation_dtypes)
-    MatColumns = list(engBOM.material_dtypes)
-    
-    with pd.ExcelWriter(name + ".xlsx") as outFile:
-        Materials.to_excel(outFile, sheet_name = "Materials", columns = MatColumns, index=False)
-        Operations.to_excel(outFile, sheet_name = "Operations", columns = OpColumns, index=False)
+    if args.xml:
+        if not os.path.isfile(args.xml):
+            print("file {} does not exist in this directory".format(args.xml))
+        else:
+            engBOM = TACTIC_ERP(args.xml)
+            engBOM.parseCurrentBOM(os.path.splitext(args.xml)[0])
+
+    if args.job:
+        jobRegex = jobValidator.fullmatch(args.job)
+        if not jobRegex:
+            print("invalid job requested")
+        else:
+            print("Processing J{:09d}-{:04d}".format(int(jobRegex[1]),int(jobRegex[2])))
 
 
-
-
-
+    input("press enter to exit...") #keep window open for the user
 
 
 

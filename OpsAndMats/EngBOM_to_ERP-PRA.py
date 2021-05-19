@@ -10,18 +10,18 @@ import os, sys
 file_dir = os.path.dirname(__file__)
 sys.path.append(file_dir)
 
-import BOM
+from TACTIC_ERP import TACTIC_ERP as BOM
 import pandas as pd
 from lxml import etree
 
-name = "8025794_Prec Angle Adj."
+name = "8027003_HD Safety Whl Ass'y"
 
 tree = etree.parse("../" + name + ".xml")
 
 Operations = pd.DataFrame()
 Materials = pd.DataFrame()
 
-engBOM = BOM.BOM(tree)
+engBOM = BOM(tree)
 
 buildMe = tree.getroot().findall(".//Part")
 for buildItem in buildMe:
